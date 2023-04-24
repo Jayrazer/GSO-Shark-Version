@@ -36,7 +36,7 @@ SWEP.PhysBulletMuzzleVelocity = 925
 SWEP.Recoil = 0.375
 SWEP.RecoilSide = 0.375
 SWEP.RecoilRise = 0.1
-SWEP.RecoilPunch = 5
+SWEP.RecoilPunch = 2
 
 SWEP.Delay = 60 / 625 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -282,9 +282,9 @@ SWEP.Attachments = {
 
 SWEP.Jamming = true
 SWEP.HeatCapacity = 50
-SWEP.HeatDissipation = 50
-SWEP.HeatLockout = true
-SWEP.HeatDelayTime = 1
+SWEP.HeatDissipation = 25
+SWEP.HeatLockout = false
+SWEP.HeatDelayTime = 0.75
 
 SWEP.BulletBones = {
     [1] = "v_weapon.bullet_18",
