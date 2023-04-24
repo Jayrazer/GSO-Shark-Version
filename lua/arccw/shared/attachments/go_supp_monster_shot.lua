@@ -1,6 +1,6 @@
-att.PrintName = "Monster2 Suppressor"
+att.PrintName = "Temple Light Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_monster.png", "mips smooth")
-att.Description = "Large sound suppressor with ballistic-enhancing qualities. Somewhat cumbersome. Can be used on shotguns."
+att.Description = "Light shotgun suppressor that reduces firing noise without adding to much extra weight to the weapon."
 
 att.SortOrder = 2
 

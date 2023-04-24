@@ -1,4 +1,4 @@
-att.PrintName = "Monolith Suppressor"
+att.PrintName = "Monolith Heavy Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_monolith.png", "mips smooth")
 att.Description = "Huge suppressor that makes shots whisper-quiet and enhances muzzle velocity. However, it is very bulky. Can be used on shotguns."
 
@@ -22,8 +22,8 @@ att.Override_MuzzleEffect = "muzzleflash_suppressed"
 att.IsMuzzleDevice = true
 
 att.Mult_ShootPitch = 0.9
-att.Mult_ShootVol = 0.75
-att.Mult_SightTime = 1.15
+att.Mult_ShootVol = 0.65
+att.Mult_SightTime = 1.25
 
 att.Add_BarrelLength = 16
 
