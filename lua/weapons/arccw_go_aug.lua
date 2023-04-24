@@ -165,7 +165,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_aug_ammo_9mm"] = {
-        NameChange = "AUG 9mm",
+        NameChange = "AUG Para",
         VMBodygroups = {
             {ind = 3, bg = 1},
         },

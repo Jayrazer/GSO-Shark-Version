@@ -159,7 +159,7 @@ SWEP.MirrorVMWM = true
 SWEP.Attachments = {
     {
         PrintName = "Optic",
-        Slot = {"optic", "optic_lp"},
+        Slot = "optic_lp",
         Bone = "v_weapon.deagle_parent",
         DefaultAttName = "Iron Sights",
         Offset = {

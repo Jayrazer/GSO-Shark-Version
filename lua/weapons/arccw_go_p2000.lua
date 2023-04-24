@@ -179,15 +179,14 @@ SWEP.Attachments = {
     {
         PrintName = "Optic",
         Slot = "optic_lp",
-        Bone = "v_weapon.HKP2000_Parent",
+        Bone = "v_weapon.HKP2000_slide",
         DefaultAttName = "Iron Sights",
         Offset = {
-            vpos = Vector(0, -3.65, 2),
+            vpos = Vector(0, -0.2, 1),
             vang = Angle(90, 0, -90),
             wpos = Vector(22, 1, -7),
             wang = Angle(-9.79, 0, 180)
         },
-        InstalledEles = {"rail"},
         CorrectiveAng = Angle(-1.35, 0, 0)
     },
     {
