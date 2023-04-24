@@ -39,7 +39,7 @@ SWEP.PhysBulletMuzzleVelocity = 1400
 SWEP.Recoil = 1.500
 SWEP.RecoilSide = 0.550
 SWEP.RecoilRise = 0.1
-SWEP.RecoilPunch = 2.5
+SWEP.RecoilPunch = 0.75
 
 SWEP.ManualAction = true
 SWEP.NoLastCycle = true -- do not cycle on last shot

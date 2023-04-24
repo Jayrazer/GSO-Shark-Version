@@ -37,7 +37,7 @@ SWEP.PhysBulletMuzzleVelocity = 350
 SWEP.Recoil = 4
 SWEP.RecoilSide = 2
 SWEP.RecoilRise = 0.1
-SWEP.RecoilPunch = 2.5
+SWEP.RecoilPunch = 0.75
 
 SWEP.ManualAction = true
 SWEP.ShotgunReload = true
