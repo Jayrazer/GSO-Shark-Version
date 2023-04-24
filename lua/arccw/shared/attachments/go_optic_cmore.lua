@@ -18,13 +18,15 @@ att.ModelOffset = Vector(0, 0, 0.1)
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -1.26295),
+        Pos = Vector(0, 10, -1.49295),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ScrollFunc = ArcCW.SCROLL_NONE,
         IgnoreExtra = false
     }
 }
+
+att.ModelScale = Vector(1.2, 1.2, 1.2)
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/holosight/go_cmore.png", "mips smooth")

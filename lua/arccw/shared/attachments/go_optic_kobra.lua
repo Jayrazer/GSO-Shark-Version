@@ -16,13 +16,15 @@ att.Model = "models/weapons/arccw_go/atts/kobra.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -0.965102),
+        Pos = Vector(0, 8, -1.25102),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ScrollFunc = ArcCW.SCROLL_NONE,
         IgnoreExtra = false
     }
 }
+
+att.ModelScale = Vector(1.3, 1.3, 1.3)
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/holosight/go_kobra.png", "mips smooth")

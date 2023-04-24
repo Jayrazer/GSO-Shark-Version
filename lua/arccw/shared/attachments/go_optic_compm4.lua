@@ -16,13 +16,15 @@ att.Model = "models/weapons/arccw_go/atts/compm4.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(-0.018321, 10, -1.34972),
+        Pos = Vector(-0.018321, 8, -1.59972),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ScrollFunc = ArcCW.SCROLL_NONE,
         IgnoreExtra = false
     }
 }
+
+att.ModelScale = Vector(1.25, 1.25, 1.25)
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/holosight/go_aimpoint.png", "mips smooth")

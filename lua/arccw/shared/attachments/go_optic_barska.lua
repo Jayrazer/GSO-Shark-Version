@@ -17,13 +17,15 @@ att.ModelBodygroups = "00"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -1.18694),
+        Pos = Vector(0, 8, -1.4694),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ScrollFunc = ArcCW.SCROLL_NONE,
         IgnoreExtra = false
     }
 }
+
+att.ModelScale = Vector(1.25, 1.25, 1.25)
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/holosight/go_barska.png", "mips smooth")
