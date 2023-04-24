@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$translucent 1
+	$basetexture "models\weapons\v_arccw_go\c4\c4_icon_plant"
+}

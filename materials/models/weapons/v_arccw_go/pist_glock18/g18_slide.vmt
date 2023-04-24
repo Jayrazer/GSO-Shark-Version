@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_arccw_go\pist_glock18\g18_slide"
+	"$color2" "[0.5 0.5 0.5]"
+
+	"$halflambert" "1"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "35"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongtint" 			"[0.5 0.5 0.5]"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[0.015 0.015 0.015]"
+
+	"$phongalbedotint" "1"
+}
+
+
+
+

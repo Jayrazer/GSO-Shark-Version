@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\arccw\charms\punished"
+	// $envmap" "env_cubemap"
+}
