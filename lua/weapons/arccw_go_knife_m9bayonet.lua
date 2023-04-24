@@ -20,7 +20,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw_go/v_csgo_m9.mdl"
 SWEP.WorldModel = "models/weapons/arccw_go/w_csgo_m9.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 56
 
 -- SWEP.WorldModelOffset = {
 --     pos = Vector(-10, -15, 0),

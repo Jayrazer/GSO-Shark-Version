@@ -10,7 +10,7 @@ SWEP.Trivia_Manufacturer = "Steyr"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
 SWEP.Trivia_Country = "Austria"
-SWEP.Trivia_Year = 2004
+SWEP.Trivia_Year = 1977
 
 SWEP.Slot = 2
 
@@ -18,7 +18,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw_go/v_rif_aug.mdl"
 SWEP.WorldModel = "models/weapons/arccw_go/v_rif_aug.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
 
@@ -104,10 +104,10 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 
-SWEP.ActivePos = Vector(-1, 2, -1)
+SWEP.ActivePos = Vector(0.5, 3, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-4, 0, -1)
+SWEP.CrouchPos = Vector(-1, -1, -1)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
 SWEP.HolsterPos = Vector(3, 3, 0)

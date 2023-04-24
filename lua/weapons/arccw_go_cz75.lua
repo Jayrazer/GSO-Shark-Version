@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "CZ-75"
+SWEP.PrintName = "CZ 75"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Czech handgun developed as an alternative to other contemporary sidearms."
 SWEP.Trivia_Manufacturer = "Česká Zbrojovka"
@@ -18,7 +18,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw_go/v_pist_cz75.mdl"
 SWEP.WorldModel = "models/weapons/arccw_go/v_pist_cz75.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
 
@@ -100,10 +100,10 @@ SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(-1, 2, -1)
+SWEP.ActivePos = Vector(0, 2, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-4, 0, -1)
+SWEP.CrouchPos = Vector(-1, -2, -1)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
 SWEP.HolsterPos = Vector(3, 3, 0)

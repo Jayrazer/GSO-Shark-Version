@@ -18,7 +18,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw_go/v_rif_ak47.mdl"
 SWEP.WorldModel = "models/weapons/w_rif_ak47.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
 
@@ -103,10 +103,10 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 
-SWEP.ActivePos = Vector(-1, 0, -1)
+SWEP.ActivePos = Vector(0, 0, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-4, 0, -1)
+SWEP.CrouchPos = Vector(-1, -4, -1)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
 SWEP.HolsterPos = Vector(3, 3, 0)

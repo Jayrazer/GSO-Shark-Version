@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Colt AR-15"
-SWEP.Trivia_Class = "Semi-Automatic Rifle"
-SWEP.Trivia_Desc = "A civilian version of the M4. Created by Eugene Stoner and sold originally by Armalite, it has since become the basis for the most popular rifles in the world. Semi-auto only!"
+SWEP.PrintName = "Colt Commando"
+SWEP.Trivia_Class = "Assault Rifle"
+SWEP.Trivia_Desc = "A precursor to the M4. Created by Eugene Stoner and sold originally by Armalite, it has since become the basis for the most popular rifles in the world."
 SWEP.Trivia_Manufacturer = "Colt"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
@@ -18,7 +18,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw_go/v_rif_car15.mdl"
 SWEP.WorldModel = "models/weapons/arccw_go/v_rif_car15.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "00000000000"
 
@@ -43,6 +43,9 @@ SWEP.RecoilPunch = 2.5
 SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 SWEP.Firemodes = {
+    {
+        Mode = 2,
+    },
     {
         Mode = 1,
     },
@@ -101,10 +104,10 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 
-SWEP.ActivePos = Vector(-1, 2, -1)
+SWEP.ActivePos = Vector(0, 2, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-4, 0, -1)
+SWEP.CrouchPos = Vector(-1, -3, -1)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
 SWEP.HolsterPos = Vector(3, 3, 0)
