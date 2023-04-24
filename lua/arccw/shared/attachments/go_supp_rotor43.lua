@@ -1,4 +1,4 @@
-att.PrintName = "Rotor43 Suppressor"
+att.PrintName = "Rotor Heavy Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_rotor43.png", "mips smooth")
 att.Description = "Huge suppressor that makes shots whisper-quiet and enhances muzzle velocity. However, it is very bulky. Can be used on shotguns."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_rif"
 
 att.SortOrder = 15
 

@@ -1,4 +1,4 @@
-att.PrintName = "PBS-4 Suppressor"
+att.PrintName = "PBS-4 Medium Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_pbs4.png", "mips smooth")
 att.Description = "Large sound suppressor with ballistic-enhancing qualities. Somewhat cumbersome. Russian equivalent to the QDSS."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_warsaw"
 
 att.SortOrder = 15
 

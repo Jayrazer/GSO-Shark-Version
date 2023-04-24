@@ -323,7 +323,7 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        Slot = "muzzle",
+        Slot = {"muzzle", "muzzle_rif"},
         Bone = "v_weapon.g3sg1_Parent",
         Offset = {
             vpos = Vector(0, -3.3, 22),

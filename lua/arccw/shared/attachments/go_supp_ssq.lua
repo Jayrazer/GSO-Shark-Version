@@ -1,4 +1,4 @@
-att.PrintName = "SSQ Suppressor"
+att.PrintName = "SSQ Light Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_ssq.png", "mips smooth")
 att.Description = "Lightweight tactical suppressor. Reduces audible report with no significant bulk. However, it has a negative impact on weapon performance. 'SSQ' stands for 'Silencer, Super Quiet'."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_pist"
 
 att.SortOrder = 15
 
@@ -24,7 +24,3 @@ att.Mult_ShootVol = 0.75
 att.Mult_Range = 0.9
 
 att.Add_BarrelLength = 8
-
-att.Hook_Compatible = function(wep)
-    if wep:GetIsShotgun() then return false end
-end

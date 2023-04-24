@@ -1,4 +1,4 @@
-att.PrintName = "TGP-A Suppressor"
+att.PrintName = "TGP-A Light Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_tgpa.png", "mips smooth")
 att.Description = "Lightweight tactical suppressor. Reduces audible report with no significant bulk. However, it has a negative impact on weapon performance. Russian equivalent to the NT-4."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_warsaw"
 
 att.SortOrder = 15
 

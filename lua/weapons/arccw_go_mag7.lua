@@ -7,7 +7,7 @@ SWEP.PrintName = "MAG-7"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "South African combat shotgun that accepts minishells in a magazine located in the pistol grip. It was created to combine the features of a submachine gun and a pump shotgun. Featured in the 1996 film 'Romeo and Juliet' starring Leonardo DiCaprio."
 SWEP.Trivia_Manufacturer = "Techno Arms"
-SWEP.Trivia_Calibre = "12 Gauge"
+SWEP.Trivia_Calibre = "12G x 60mm Minishells"
 SWEP.Trivia_Mechanism = "Pump-Action"
 SWEP.Trivia_Country = "South Africa"
 SWEP.Trivia_Year = 1995
@@ -103,10 +103,10 @@ SWEP.HoldtypeSights = "ar2"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG
 
-SWEP.ActivePos = Vector(-1, 0, -1)
+SWEP.ActivePos = Vector(0, 0, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-1, -2, -1)
+SWEP.CrouchPos = Vector(-1, -2, 0)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
 SWEP.HolsterPos = Vector(3, 3, 0)

@@ -1,4 +1,4 @@
-att.PrintName = "NT-4 Suppressor"
+att.PrintName = "NT-4 Light Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_nt4.png", "mips smooth")
 att.Description = "Lightweight tactical suppressor. Reduces audible report with no significant bulk. However, it has a negative impact on weapon performance."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_rif"
 
 att.SortOrder = 15
 

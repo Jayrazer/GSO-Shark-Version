@@ -1,4 +1,4 @@
-att.PrintName = "PBS-1 Suppressor"
+att.PrintName = "PBS-1 Heavy Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_pbs1.png", "mips smooth")
 att.Description = "Huge suppressor that makes shots whisper-quiet and enhances muzzle velocity. However, it is very bulky. A Russian equivalent to the Rotor43."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_warsaw"
 
 att.SortOrder = 15
 

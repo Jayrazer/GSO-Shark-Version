@@ -1,4 +1,4 @@
-att.PrintName = "QDSS Suppressor"
+att.PrintName = "QDSS Medium Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_qdss.png", "mips smooth")
 att.Description = "Large sound suppressor with ballistic-enhancing qualities. Somewhat cumbersome."
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_rif"
 
 att.SortOrder = 15
 

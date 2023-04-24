@@ -1,6 +1,6 @@
-att.PrintName = "Osprey Suppressor"
+att.PrintName = "Osprey Heavy Suppressor"
 att.Icon = Material("entities/acwatt_go_supp_osprey.png", "mips smooth")
-att.Description = "Large sound suppressor with ballistic-enhancing qualities. Somewhat cumbersome. Can be used on shotguns."
+att.Description = "Large sound suppressor with ballistic-enhancing qualities. Somewhat cumbersome."
 
 att.SortOrder = 2
 
@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = "muzzle_pist"
 
 att.SortOrder = 15
 
@@ -28,7 +28,3 @@ att.Mult_SightTime = 1.1
 att.Mult_HipDispersion = 1.15
 
 att.Add_BarrelLength = 8
-
-att.Hook_Compatible = function(wep)
-    if wep:GetIsShotgun() then return false end
-end
