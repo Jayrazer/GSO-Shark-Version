@@ -16,7 +16,7 @@ att.Mult_ShootPitch = 0.95
 
 att.Override_Firemodes = {
     {
-        Mode = 2
+        Mode = -3
     },
     {
         Mode = 1
