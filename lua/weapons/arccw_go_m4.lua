@@ -276,7 +276,21 @@ SWEP.AttachmentElements = {
         WMBodygroups = {
             {ind = 2, bg = 4},
         },
-    }
+    },
+	["go_ubgl_m203"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, -4, 9),
+            }
+        }
+	},
+	["go_ubgl_mass"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, -4, 9),
+            }
+        }
+	},
 }
 
 SWEP.ExtraSightDist = 10
@@ -347,7 +361,7 @@ SWEP.Attachments = {
         Slot = {"foregrip", "ubgl"},
         Bone = "v_weapon.M4A1_Parent",
         Offset = {
-            vpos = Vector(0, -4, 9),
+            vpos = Vector(0, -4, 11),
             vang = Angle(90, 0, -90),
             wpos = Vector(22, 1, -7),
             wang = Angle(-9.79, 0, 180)

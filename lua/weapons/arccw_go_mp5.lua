@@ -248,6 +248,20 @@ SWEP.AttachmentElements = {
             {ind = 4, bg = 5},
         },
     },
+	["go_ubgl_m203"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, 10.75, 2.65),
+            }
+        }
+	},
+	["go_ubgl_mass"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, 12, 3),
+            }
+        }
+	},
 }
 
 SWEP.Hook_NameChange = function(wep, name)
@@ -335,7 +349,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = "foregrip",
+        Slot = {"foregrip", "ubgl"},
         Bone = "v_weapon.mp5sd_parent",
         DefaultAttName = "Standard Foregrip",
         Offset = {

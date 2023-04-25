@@ -269,6 +269,20 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 9},
         },
     },
+	["go_ubgl_m203"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, -2.25, 12),
+            }
+        }
+	},
+	["go_ubgl_mass"] = {
+		AttPosMods = {
+           [2] = {
+				vpos = Vector(0, -2.25, 12),
+            }
+        }
+	},
 }
 
 SWEP.ExtraSightDist = 10

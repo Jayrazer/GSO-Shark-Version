@@ -16,8 +16,8 @@ SWEP.Slot = 1
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_pist_glock.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_pist_glock.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_pist_glock_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_pist_glock_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
@@ -160,6 +160,18 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [4] = {
                 vpos = Vector(0, -2.35, 6.2),
+            }
+        }
+    },
+	
+	["go_glock_slide_long"] = {
+        NameChange = "Glock 17L",
+        VMBodygroups = {
+            {ind = 1, bg = 3}
+        },
+        AttPosMods = {
+            [4] = {
+                vpos = Vector(0, -2.35, 7.9),
             }
         }
     },
