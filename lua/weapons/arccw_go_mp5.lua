@@ -177,6 +177,22 @@ SWEP.AttachmentElements = {
             }
         }
     },
+	["go_mp5_barrel_freeman"] = {
+        VMBodygroups = {
+            {ind = 1, bg = 3},
+        },
+        WMBodygroups = {
+            {ind = 1, bg = 3},
+        },
+        AttPosMods = {
+            [2] = {
+                vpos = Vector(0, 12, 1.75),
+            },
+            [3] = {
+                vpos = Vector(1.65, 8.5, 3.75),
+            }
+        }
+    },
     ["go_mp5_mag_15"] = {
         VMBodygroups = {
             {ind = 3, bg = 1},
@@ -351,7 +367,7 @@ SWEP.Attachments = {
         PrintName = "Underbarrel",
         Slot = {"foregrip", "ubgl"},
         Bone = "v_weapon.mp5sd_parent",
-        DefaultAttName = "Standard Foregrip",
+        DefaultAttName = "Corrected Hand",
         Offset = {
             vpos = Vector(0, 12, 2.5),
             vang = Angle(0, -90, 0),
@@ -359,7 +375,9 @@ SWEP.Attachments = {
             wang = Angle(-9.79, 0, 180)
         },
         InstalledEles = {"ubrms"},
-    },
+		Installed = "go_extras_boondoggle",
+		EmptyFallback = "go_extras_boondoggle",
+    },	
     {
         PrintName = "Tactical",
         Slot = "tac",
