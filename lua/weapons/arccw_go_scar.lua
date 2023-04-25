@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "FN SCAR"
+SWEP.PrintName = "SCAR-H"
 SWEP.Trivia_Class = "Battle Rifle"
 SWEP.Trivia_Desc = "High-class battle rifle designed to serve the needs of special forces in modern warfare."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
@@ -406,6 +406,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

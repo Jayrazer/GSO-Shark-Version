@@ -1,4 +1,4 @@
-att.PrintName = "Marksman Trigger"
+att.PrintName = "Civilian FCG"
 att.Icon = Material("entities/acwatt_go_perk_semi.png")
 att.Description = "Switch for a semi-automatic only firing group and trigger capable of very high accuracy and very stable firing."
 att.Desc_Pros = {
@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 att.Override_Firemodes_Priority = 100
 att.Override_Firemodes = {

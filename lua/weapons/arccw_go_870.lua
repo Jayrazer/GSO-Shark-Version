@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Remington 870"
+SWEP.PrintName = "R870"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Venerable pump shotgun practically associated with the very concept. At over 3 million sold, the Model 870 is the most popular shotgun ever produced."
 SWEP.Trivia_Manufacturer = "Remington Arms"
@@ -271,6 +271,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Buckshot Shells"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

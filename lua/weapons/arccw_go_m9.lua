@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Beretta M9A1"
+SWEP.PrintName = "M9A1"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Popular full-sized Italian 9mm handgun adopted by the US military."
 SWEP.Trivia_Manufacturer = "Fabbrica d'Armi Pietro Beretta"
@@ -242,6 +242,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

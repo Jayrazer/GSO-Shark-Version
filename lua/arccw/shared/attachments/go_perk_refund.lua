@@ -9,6 +9,8 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "go_perk"
 
+att.Ignore = true
+
 
 att.Hook_BulletHit = function(wep, data)
     if CLIENT then return end

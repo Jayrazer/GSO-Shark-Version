@@ -9,6 +9,8 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "go_perk"
 
+att.Ignore = true
+
 
 att.M_Hook_Mult_Damage = function(wep, data)
     if wep:Clip1() == 1 then

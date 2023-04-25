@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "B&T MP9"
+SWEP.PrintName = "MP9"
 SWEP.Trivia_Class = "Machine Pistol"
 SWEP.Trivia_Desc = "9mm machine pistol developed from the Steyr TMP, with side-folding stock."
 SWEP.Trivia_Manufacturer = "Brugger & Thomet"
@@ -313,6 +313,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

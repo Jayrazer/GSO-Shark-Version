@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "H&K MP5"
+SWEP.PrintName = "MP5A3"
 SWEP.Trivia_Class = "Submachine Gun"
 SWEP.Trivia_Desc = "Popular lightweight 9mm submachine gun used by police and militaries around the world. Well-balanced performance."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
@@ -423,6 +423,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

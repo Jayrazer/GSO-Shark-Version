@@ -1,4 +1,4 @@
-att.PrintName = "Homemade Auto"
+att.PrintName = "Auto FCG"
 att.Icon = Material("entities/acwatt_go_homemade_auto.png", "mips smooth")
 att.Description = "Illegally modify the weapon to be fully automatic."
 att.Desc_Pros = {
@@ -7,12 +7,15 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 att.Override_Firemodes_Priority = 10
 att.Override_Firemodes = {
     {
         Mode = 2,
+    },
+	    {
+        Mode = 1,
     },
 }
 

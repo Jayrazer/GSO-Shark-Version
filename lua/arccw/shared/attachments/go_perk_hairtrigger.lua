@@ -6,7 +6,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
 }
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 att.AutoStats = true
 att.Mult_TriggerDelayTime = 0.4

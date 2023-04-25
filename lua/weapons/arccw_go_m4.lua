@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Mk 18 Mod 0"
+SWEP.PrintName = "M4A1"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "A popular American assault rifle based on Eugene Stoner's AR-15 system. Well-balanced with good all-round characteristics."
 SWEP.Trivia_Manufacturer = "FN USA"
@@ -419,6 +419,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

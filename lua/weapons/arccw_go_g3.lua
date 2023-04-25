@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "H&K G3"
+SWEP.PrintName = "G3A3"
 SWEP.Trivia_Class = "Battle Rifle"
 SWEP.Trivia_Desc = "Slow-firing, heavy hitting battle rifle with origins tracing back to the end of World War 2. Developed to meet the needs of the newly-formed Bundeswehr."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
@@ -370,6 +370,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

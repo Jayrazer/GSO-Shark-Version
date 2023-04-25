@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "SIG P250"
+SWEP.PrintName = "P250"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Compact hard hitting handgun incorporating numerous incremental improvements over the previous generation of SIG pistols. Instead of a safety, the action has a decocker that reverts the pistol to double action."
 SWEP.Trivia_Manufacturer = "SIG Sauer"
@@ -235,6 +235,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

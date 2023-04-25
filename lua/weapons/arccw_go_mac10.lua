@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Ingram MAC-10"
+SWEP.PrintName = "MAC-10"
 SWEP.Trivia_Class = "Submachine Gun"
 SWEP.Trivia_Desc = "A classic 'gangster' machine pistol popular for its ease of converting to full-auto, originally conceived as a low cost special forces weapon. Poor recoil, but a powerful .45 ACP round and fast rate of fire allow it to do heavy damage in a short time."
 SWEP.Trivia_Manufacturer = "Military Armaments Corporation"
@@ -320,6 +320,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

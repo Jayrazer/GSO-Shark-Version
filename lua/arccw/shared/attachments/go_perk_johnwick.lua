@@ -9,7 +9,7 @@ att.AutoStats = false
 att.Slot = "go_perk"
 att.JohnWick = true
 
-att.Ignore = false
+att.Ignore = true
 att.NoRandom = true
 
 att.Mult_MeleeDamage = 2

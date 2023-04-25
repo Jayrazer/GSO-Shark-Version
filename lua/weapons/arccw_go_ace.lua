@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Galil ACE"
+SWEP.PrintName = "ACE 22"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "A low-recoil, highly controllable rifle designed for the Israeli Defense Force."
 SWEP.Trivia_Manufacturer = "Israeli Weapon Industries"
@@ -361,6 +361,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

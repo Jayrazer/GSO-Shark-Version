@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "IMI Negev"
+SWEP.PrintName = "Negev"
 SWEP.Trivia_Class = "Squad Assault Weapon"
 SWEP.Trivia_Desc = "7.62mm light machine gun based on the IWI Negev. Capable of laying down heavy fire over long range."
 SWEP.Trivia_Manufacturer = "Israeli Weapons Industries"
@@ -261,6 +261,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

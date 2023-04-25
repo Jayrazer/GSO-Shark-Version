@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "AI Arctic Warfare"
+SWEP.PrintName = "AWP"
 SWEP.Trivia_Class = "Sniper Rifle"
 SWEP.Trivia_Desc = "The Arctic Warfare Super Magnum is a cold-weather sniper rifle for police and military using a high-caliber round."
 SWEP.Trivia_Manufacturer = "Accuracy International"
@@ -319,6 +319,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

@@ -1,4 +1,4 @@
-att.PrintName = "Enhanced Burst"
+att.PrintName = "Burst FCG"
 att.Icon = Material("entities/acwatt_go_perk_burst.png", "mips smooth")
 att.Description = "Alters weapon fire group to support 3-burst and semi-automatic fire instead. Enhances effective fire rate."
 att.Desc_Pros = {
@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 att.Override_Firemodes_Priority = 10
 att.Override_Firemodes = {

@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Intratec TEC-9"
+SWEP.PrintName = "TEC-9"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Cheap open bolt pistol originally created for the Swedish special forces market. However, the Swedish market for budget special forces submachine guns wasn't very big, so they exported the design to the United States where it became infamous as a cheap pistol that could be easily converted into full auto. As a result, it was the direct target of several 'assault weapon' bans."
 SWEP.Trivia_Manufacturer = "Intratec"
@@ -245,6 +245,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

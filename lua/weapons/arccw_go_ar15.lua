@@ -311,6 +311,10 @@ SWEP.Attachments = {
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
     },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
+    },
     {
         PrintName = "Perk",
         Slot = {"go_perk", "go_homemade_auto"}

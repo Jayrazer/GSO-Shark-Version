@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Benelli Nova"
+SWEP.PrintName = "Nova"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Pump-action shotgun designed for hunting and tactical use. The SuperNova improves over the Nova with a mercury-based recoil reduction system, drillings for a picatinny rail, and improved, tighter slide."
 SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
@@ -257,6 +257,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Buckshot Shells"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

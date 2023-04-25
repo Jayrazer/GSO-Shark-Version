@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "FN P90"
+SWEP.PrintName = "P90"
 SWEP.Trivia_Class = "PDW"
 SWEP.Trivia_Desc = "Personal defense weapon with a high-capacity magazine, loading tiny pointed armor-piercing rounds. Good firepower in a compact package. The 'TRI RAIL' model has three picatinny rails for attachments."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
@@ -255,6 +255,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

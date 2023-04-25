@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Benelli M4 Super 90"
+SWEP.PrintName = "M1014"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Semi-Automatic tube-fed shotgun used by the US military and various tactical units around the world. The 1998 testing prototypes were named 'XM1014', but after it was accepted into US service, the X was dropped."
 SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
@@ -297,6 +297,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Buckshot Shells"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

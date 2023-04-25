@@ -1,4 +1,4 @@
-att.PrintName = "Double Tapper"
+att.PrintName = "Hyperburst"
 att.Icon = Material("entities/acwatt_go_perk_hyper.png")
 att.Description = "Firemode conversion allowing for a rapid two-round burst and semi-automatic fire. Due to the high firerate, the first shot's recoil will be reduced."
 att.Desc_Pros = {
@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 att.Override_Firemodes_Priority = 100
 att.Override_Firemodes = {

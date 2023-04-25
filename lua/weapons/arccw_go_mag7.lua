@@ -248,6 +248,10 @@ SWEP.Attachments = {
         Slot = "go_ammo",
         DefaultAttName = "Buckshot Shells"
     },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
+    },
     {
         PrintName = "Perk",
         Slot = "go_perk"

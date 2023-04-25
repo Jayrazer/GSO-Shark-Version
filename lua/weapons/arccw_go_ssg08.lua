@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Steyr SSG 08"
+SWEP.PrintName = "SSG 08"
 SWEP.Trivia_Class = "Sniper Rifle"
 SWEP.Trivia_Desc = "Precision sniper rifle for police and military use, also popular among civilian hunters."
 SWEP.Trivia_Manufacturer = "Steyr Mannlicher"
@@ -305,6 +305,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"
+    },
+	{
+        PrintName = "Internals",
+        Slot = "go_internals"
     },
     {
         PrintName = "Perk",

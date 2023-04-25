@@ -1,4 +1,4 @@
-att.PrintName = "Deft Hands"
+att.PrintName = "Greased Bolt"
 att.Icon = Material("entities/acwatt_go_perk_bolt.png", "mips smooth")
 att.Description = "Cycling the weapon is 25% faster."
 att.Desc_Pros = {
@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "go_perk"
+att.Slot = "go_internals"
 
 
 att.Mult_CycleTime = 0.75
