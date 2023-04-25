@@ -16,8 +16,8 @@ SWEP.Slot = 1
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_pist_usp.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_pist_usp.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_pist_usp_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_pist_usp_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
@@ -168,6 +168,11 @@ SWEP.AttachmentElements = {
             }
         }
     },
+	["go_usp_muzzle_match"] = {
+        VMBodygroups = {
+            {ind = 3, bg = 1}
+        }
+    },
 }
 
 SWEP.ExtraSightDist = 10
@@ -213,7 +218,7 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        Slot = {"muzzle", "muzzle_pist"},
+        Slot = {"muzzle", "muzzle_pist", "go_muzzle_usp"},
         Bone = "v_weapon.223_parent",
         Offset = {
             vpos = Vector(-0.05, -2.99, 7.35),
