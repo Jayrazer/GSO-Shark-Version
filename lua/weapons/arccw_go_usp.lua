@@ -173,6 +173,11 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 1}
         }
     },
+	["go_usp_mag_8_127"] = {
+        VMBodygroups = {
+            {ind = 0, bg = 0},
+            {ind = 1, bg = 2},
+    },
 }
 
 SWEP.ExtraSightDist = 10
@@ -213,7 +218,8 @@ SWEP.Attachments = {
     {
         PrintName = "Slide",
         Slot = "go_usp_slide",
-        DefaultAttName = "110mm USP Slide"
+        DefaultAttName = "110mm USP Slide",
+		ExcludeFlags = {"go_usp_muzzle_match"},
     },
     {
         PrintName = "Muzzle",
