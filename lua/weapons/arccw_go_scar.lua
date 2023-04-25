@@ -355,6 +355,8 @@ SWEP.Attachments = {
             wpos = Vector(22, 1, -7),
             wang = Angle(-9.79, 0, 180)
         },
+		Installed = "go_extras_boondoggle2",
+		EmptyFallback = "go_extras_boondoggle2",
     },
     {
         PrintName = "Tactical",

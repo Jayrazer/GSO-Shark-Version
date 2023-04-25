@@ -215,6 +215,8 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
         MergeSlots = {3},
+		Installed = "go_extras_boondoggle2",
+		EmptyFallback = "go_extras_boondoggle2",
     },
     {
         Hidden = true,

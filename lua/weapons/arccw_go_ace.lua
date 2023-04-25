@@ -313,6 +313,8 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
         InstalledEles = {"ubrms"},
+		Installed = "go_extras_boondoggle3",
+		EmptyFallback = "go_extras_boondoggle3",
     },
     {
         PrintName = "Tactical",
