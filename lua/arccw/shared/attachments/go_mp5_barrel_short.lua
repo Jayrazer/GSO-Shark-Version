@@ -1,6 +1,6 @@
 att.PrintName = "150mm Kurz Barrel"
 att.Icon = Material("entities/acwatt_go_mp5_barrel_short.png", "mips smooth")
-att.Description = "Shortened barrel for the MP5. Not actually an MP5K barrel."
+att.Description = "Compact barrel from the MP5K with an integrated foregrip."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
