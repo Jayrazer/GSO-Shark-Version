@@ -9,7 +9,7 @@ $bodygroup "0"
 $bodygroup "1"
 {
 	studio "mp5_barrel_factory.smd"
-	studio "mp5_barrel_k.smd"
+	studio "mp5_barrel_k_new.smd"
 	studio "mp5_barrel_long.smd"
 	studio "mp5_barrel_sd.smd"
 }
@@ -23,6 +23,7 @@ $bodygroup "3"
 	studio "mp5_mag_30.smd"
 	studio "mp5_mag_15.smd"
 	studio "mp5_mag_40.smd"
+	studio "mp5_mag_10mm.smd"
 }
 $bodygroup "4"
 {
@@ -59,11 +60,14 @@ $contents "solid"
 $illumposition 9.498 -25.392 -5.93
 
 $cdmaterials "models\weapons\v_arccw_go\snip_g3sg1_beta\"
+$cdmaterials "models\csgo\g3sg1\"
+$cdmaterials "models\csgo\mp5\"
 $cdmaterials "models\weapons\v_arccw_go\smg_mp5sd\"
 $cdmaterials "models\weapons\v_arccw_go\smg_mp7\"
 $cdmaterials "models\weapons\v_arccw_go\rif_m4a1\"
 $cdmaterials "models\weapons\v_arccw_go\rif_galilar\"
 $cdmaterials "models\weapons\v_arccw_go\rif_aug\"
+$cdmaterials "models\weapons\v_arccw_go\smg_ump45\"
 
 $attachment "1" "v_weapon.mp5sd_parent" 0 -22.58 3.63 rotate 0 -90 0
 $attachment "2" "v_weapon.mp5sd_parent" -0.8 -5.36 4.6 rotate -25 180 -90

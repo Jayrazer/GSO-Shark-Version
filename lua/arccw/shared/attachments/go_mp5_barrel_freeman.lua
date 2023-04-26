@@ -10,5 +10,8 @@ att.Slot = "go_mp5_barrel"
 
 att.Override_MuzzleEffect = "muzzleflash_4"
 
+att.Override_ActivePos = Vector(-2, 6, -1)
+att.Override_CrouchPos = Vector(-2, 6, -1)
+
 att.Override_PhysTracerProfile = 7
 att.Override_TracerNum = 0

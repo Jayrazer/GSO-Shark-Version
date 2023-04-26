@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_smg_mp5.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_smg_mp5.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_smg_mp5_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_smg_mp5_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
@@ -138,15 +138,16 @@ SWEP.AttachmentElements = {
         },
         AttPosMods = {
             [5] = {
-                vpos = Vector(0, 13, 4),
+                vpos = Vector(0, 15, 3.85),
             },
             [2] = {
                 vpos = Vector(0, 12, 1.75),
             },
             [3] = {
-                vpos = Vector(1.65, 8.5, 3.75),
+                vpos = Vector(1, 8.5, 3.75),
             }
         }
+		
     },
     ["go_mp5_barrel_long"] = {
         VMBodygroups = {
@@ -173,7 +174,7 @@ SWEP.AttachmentElements = {
                 vpos = Vector(0, 12, 1.75),
             },
             [3] = {
-                vpos = Vector(1.65, 8.5, 3.75),
+                vpos = Vector(1.7, 8.5, 3.6),
             }
         }
     },
@@ -189,7 +190,7 @@ SWEP.AttachmentElements = {
                 vpos = Vector(0, 12, 1.75),
             },
             [3] = {
-                vpos = Vector(1.65, 8.5, 3.75),
+                vpos = Vector(1.7, 8.5, 3.6),
             }
         }
     },
@@ -207,6 +208,14 @@ SWEP.AttachmentElements = {
         },
         WMBodygroups = {
             {ind = 3, bg = 2},
+        },
+    },
+    ["go_mp5_mag_10mm"] = {
+        VMBodygroups = {
+            {ind = 3, bg = 3},
+        },
+        WMBodygroups = {
+            {ind = 3, bg = 3},
         },
     },
     ["go_mp5_stock_in"] = {
@@ -289,6 +298,10 @@ SWEP.Hook_NameChange = function(wep, name)
     for i, k in pairs(eles or {}) do
         if k == "go_mp5_barrel_sd" then
             prefix = "MP5SD"
+		elseif k == "go_mp5_mag_10mm" then
+			prefix = "MP5/10-"
+		elseif k == "go_mp5_barrel_short" then
+			prefix = "MP5KA"
         elseif k == "go_mp5_stock_heavy" then
             stock = "2"
         elseif k == "go_stock_none" then
@@ -312,8 +325,11 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
     for i, k in pairs(eles or {}) do
         if k == "go_mp5_barrel_sd" then
             barrel = true
+        elseif k == "go_mp5_barrel_freeman" then
+            barrel = true
         elseif k == "go_mp5_barrel_short" then
             barrel = true
+			tacms = false
         elseif k == "ubrms" then
             ubrms = true
         elseif k == "tacms" then
@@ -377,6 +393,7 @@ SWEP.Attachments = {
         InstalledEles = {"ubrms"},
 		Installed = "go_extras_boondoggle",
 		EmptyFallback = "go_extras_boondoggle",
+		ExcludeFlags = {"go_mp5_barrel_short"},
     },	
     {
         PrintName = "Tactical",
@@ -391,6 +408,11 @@ SWEP.Attachments = {
     {
         PrintName = "Barrel",
         Slot = "go_mp5_barrel",
+        Bone = "v_weapon.mp5sd_parent",
+        Offset = {
+            vpos = Vector(0, 11, 3),
+            vang = Angle(0, -90, 0),
+        },
         DefaultAttName = "230mm HK Barrel"
     },
     {

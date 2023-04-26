@@ -7,6 +7,9 @@ att.Desc_Cons = {
 }
 att.AutoStats = true
 att.Slot = "go_mp5_barrel"
+att.Model = "models/weapons/arccw_go/atts/go_kurzlhik.mdl"
+att.LHIK = true
+
 
 att.Mult_Range = 0.75
 att.Mult_Recoil = 1.25
@@ -14,3 +17,5 @@ att.Mult_SightTime = 0.85
 att.Mult_AccuracyMOA = 2
 
 att.Mult_ShootPitch = 1.1
+
+att.Override_HoldtypeActive = "smg"
