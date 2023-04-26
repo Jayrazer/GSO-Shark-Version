@@ -292,24 +292,26 @@ SWEP.AttachmentElements = {
 SWEP.Hook_NameChange = function(wep, name)
     local eles = wep:GetActiveElements()
 
-    local prefix = "MP5A"
-    local stock = "3"
+    local prefix = "MP5"
+    local stock = "A3"
 
     for i, k in pairs(eles or {}) do
         if k == "go_mp5_barrel_sd" then
             prefix = "MP5SD"
 		elseif k == "go_mp5_mag_10mm" then
-			prefix = "MP5/10-"
+			prefix = "MP5/10 "
 		elseif k == "go_mp5_barrel_short" then
-			prefix = "MP5KA"
+			prefix = "MP5K"
 		elseif k == "go_mp5_barrel_freeman" then
-			prefix = "9mm AR A"
+			prefix = "9mm AR "
         elseif k == "go_mp5_stock_heavy" then
-            stock = "2"
+            stock = "A2"
         elseif k == "go_stock_none" then
-            stock = "1"
+            stock = "A1"
+		elseif k == "go_stock_ump" then
+			stock = " PDW"
         elseif k == "go_mp5_barrel_long" then
-            prefix = "HK94A"
+            prefix = "HK94"
         end
     end
 

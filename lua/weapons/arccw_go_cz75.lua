@@ -143,6 +143,7 @@ SWEP.AttachmentElements = {
         },
     },
     ["go_cz75_slide_short"] = {
+		NameChange = "CZ 75 Compact",
         VMBodygroups = {
             {ind = 1, bg = 1},
         },
@@ -163,6 +164,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_cz75_slide_auto"] = {
+		NameChange = "CZ 75 Automatic",
         VMBodygroups = {
             {ind = 1, bg = 3},
         },

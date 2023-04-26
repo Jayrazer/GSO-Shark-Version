@@ -150,6 +150,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_aug_barrel_long"] = {
+		NameChange = "AUG HBAR",
         VMBodygroups = {
             {ind = 4, bg = 2},
             {ind = 2, bg = 1},
