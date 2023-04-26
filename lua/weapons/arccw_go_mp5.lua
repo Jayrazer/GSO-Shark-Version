@@ -302,6 +302,8 @@ SWEP.Hook_NameChange = function(wep, name)
 			prefix = "MP5/10-"
 		elseif k == "go_mp5_barrel_short" then
 			prefix = "MP5KA"
+		elseif k == "go_mp5_barrel_freeman" then
+			prefix = "9mm AR A"
         elseif k == "go_mp5_stock_heavy" then
             stock = "2"
         elseif k == "go_stock_none" then
@@ -429,7 +431,8 @@ SWEP.Attachments = {
     {
         PrintName = "Magazine",
         Slot = "go_mp5_mag",
-        DefaultAttName = "30-Round 9mm MP5"
+        DefaultAttName = "30-Round 9mm MP5",
+		ExcludeFlags = {"go_mp5_barrel_freeman"},
     },
     {
         PrintName = "Stock",
