@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "M4A1"
+SWEP.PrintName = "M4"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "A popular American assault rifle based on Eugene Stoner's AR-15 system. Well-balanced with good all-round characteristics."
+SWEP.Trivia_Desc = "A modern iteration of the venerable AR-15 platform, the M4 is a highly-customizable carbine rifle that remains the primary service rifle of the U.S. Armed Forces.  This particular model sports a flat-top receiver and RIS handguard, allowing for the attachment of various sights and tactical accessories."
 SWEP.Trivia_Manufacturer = "FN USA"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"

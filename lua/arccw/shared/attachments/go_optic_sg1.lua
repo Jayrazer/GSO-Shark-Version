@@ -17,12 +17,14 @@ att.Model = "models/weapons/arccw_go/atts/sg1.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0.025, -2, -8.667),
+        Pos = Vector(-0.1, 12, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 3,
         IgnoreExtra = true
     },
 }
+
+att.ModelOffset = Vector(-16.5, 0.1, -7.15)
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/scopes/triple_go.png", "mips smooth")

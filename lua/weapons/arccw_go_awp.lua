@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AWP"
 SWEP.Trivia_Class = "Sniper Rifle"
-SWEP.Trivia_Desc = "The Arctic Warfare Super Magnum is a cold-weather sniper rifle for police and military using a high-caliber round."
+SWEP.Trivia_Desc = "The world's premier precision rifle, the Arctic Warfare series once held the record for longest confirmed sniper kill of 2,475 meters, and has found widespread usage in military, police and civilian applications.  The rifle has many features that make it able to operate efficiently in extreme cold, hence its name."
 SWEP.Trivia_Manufacturer = "Accuracy International"
 SWEP.Trivia_Calibre = ".338 Lapua Magnum"
 SWEP.Trivia_Mechanism = "Bolt-Action"

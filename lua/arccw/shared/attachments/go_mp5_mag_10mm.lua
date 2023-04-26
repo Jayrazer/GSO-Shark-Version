@@ -10,6 +10,7 @@ att.AutoStats = true
 att.Slot = "go_mp5_mag"
 
 att.Mult_ShootPitch = 0.85
+att.Mult_Recoil = 1.15
 att.Mult_Damage = 1.15
 att.Mult_DamageMin = 0.9
 att.Mult_SightTime = 1.05

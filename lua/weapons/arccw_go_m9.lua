@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "M9A1"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Popular full-sized Italian 9mm handgun adopted by the US military."
+SWEP.Trivia_Desc = "Known for their role in action movies and as the standard-issue handgun of the U.S. Army, the Beretta 92 series are sleek pistols with excellent performance.  The modern M9A1 variant was designed to meet the standards of the U.S. Military, with improved grips, an underbarrel accessory rail and an ambidexterous magazine release."
 SWEP.Trivia_Manufacturer = "Fabbrica d'Armi Pietro Beretta"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short Recoil"

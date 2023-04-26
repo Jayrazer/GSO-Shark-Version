@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "G3A3"
 SWEP.Trivia_Class = "Battle Rifle"
-SWEP.Trivia_Desc = "Slow-firing, heavy hitting battle rifle with origins tracing back to the end of World War 2. Developed to meet the needs of the newly-formed Bundeswehr."
+SWEP.Trivia_Desc = "Heavy, but reliable, the G3 was an early battle rifle that armed many NATO member states following World War 2, and remained the primary service rifle of the Bundeswehr until the 1990's.  Developed from the Spanish CETME, the roller-delayed blowback mechanism introduced with the G3 would later be developed into the MP5."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "7.62x51mm NATO"
 SWEP.Trivia_Mechanism = "Roller-Delayed Blowback"
@@ -265,7 +265,8 @@ SWEP.AttachmentElements = {
     ["go_g3_scope"] = {
         NameChange = "G3SG1",
         VMBodygroups = {
-            {ind = 9, bg = 1}
+            {ind = 9, bg = 1},
+			{ind = 6, bg = 0},
         },
     },
 	["go_ubgl_m203"] = {
@@ -297,7 +298,7 @@ SWEP.MirrorVMWM = true
 SWEP.Attachments = {
     {
         PrintName = "Optic",
-        Slot = "optic",
+        Slot = {"optic", "go_g3_scope"},
         Bone = "v_weapon.g3sg1_Parent",
         DefaultAttName = "Iron Sights",
         Offset = {

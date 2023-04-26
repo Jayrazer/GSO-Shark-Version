@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "P250"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Compact hard hitting handgun incorporating numerous incremental improvements over the previous generation of SIG pistols. Instead of a safety, the action has a decocker that reverts the pistol to double action."
+SWEP.Trivia_Desc = "Drawing from SIG's experience with quality handguns, the P250 is a compact, multi-caliber handgun with a unique self-decocking double action trigger.  Chambered for the unique .357 SIG cartridge, the pistol boasts excellent stopping power up close without sacrificing magazine capacity."
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Calibre = ".357 SIG"
 SWEP.Trivia_Mechanism = "Short Recoil"

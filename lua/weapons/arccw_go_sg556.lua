@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "SIG556"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Swiss rifle created for the civilian market. Designed primarily for export to the USA. Good at range. Modified to have a military fire group."
+SWEP.Trivia_Desc = "Developed from SIG's popular SG550 series of rifles, the SG556 is designed specifically for the civilian market.  The SIG556 features a STANAG-compatible magwell, polymer furniture and multiple accessory rails."
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"

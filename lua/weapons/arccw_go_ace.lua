@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "ACE 22"
+SWEP.PrintName = "Galil ACE"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "A low-recoil, highly controllable rifle designed for the Israeli Defense Force."
+SWEP.Trivia_Desc = "A modern update to Israel's venerable Galil, the ACE series aims to bring the rifle up to modern standards while retaining its trademark reliability and ease of use.  The design is very modular, with multiple barrel and calibre configurations available."
 SWEP.Trivia_Manufacturer = "Israeli Weapon Industries"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = ""
@@ -280,6 +280,29 @@ SWEP.AttachmentElements = {
         }
 	},
 }
+
+SWEP.Hook_NameChange = function(wep, name)
+    local eles = wep:GetActiveElements()
+
+    local prefix = "Galil ACE 2"
+    local stock = "2"
+
+    for i, k in pairs(eles or {}) do
+        if k == "go_ace_barrel_short" then
+            stock = "1"
+		elseif k == "go_ace_barrel_long" then
+			stock = "3"
+		elseif k == "go_ace_mag_10_762" then
+			prefix = "Galil ACE 3"
+		elseif k == "go_ace_mag_30_762" then
+			prefix = "Galil ACE 3"
+		elseif k == "go_ace_mag_40_762" then
+			prefix = "Galil ACE 3"
+        end
+    end
+
+    return prefix .. stock
+end
 
 SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = true

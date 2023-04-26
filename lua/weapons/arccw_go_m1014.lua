@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "M1014"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Semi-Automatic tube-fed shotgun used by the US military and various tactical units around the world. The 1998 testing prototypes were named 'XM1014', but after it was accepted into US service, the X was dropped."
+SWEP.Trivia_Desc = "The U.S. military designation of the Benelli M4, the M1014 utilizes the high-tech ARGO dual gas piston system for its semi-automatic operation.  The weapons has since become nearly-synonymous with the concept of semi-automatic shotguns as a whole."
 SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Gas-Operated Rotating Bolt"

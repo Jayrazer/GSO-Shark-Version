@@ -1,4 +1,4 @@
-att.PrintName = "30-Round 9mm Colt"
+att.PrintName = "32-Round 9mm Colt"
 att.Icon = Material("entities/acwatt_go_m4_mag_30_9mm.png", "mips smooth")
 att.Description = "9mm magazine conversion, turning the rifle into a submachine gun."
 att.Desc_Pros = {
@@ -15,7 +15,7 @@ att.Mult_Recoil = 0.9
 att.Mult_SightTime = 0.8
 att.Mult_RPM = 1.5
 att.Mult_AccuracyMOA = 2
-att.Override_ClipSize = 30
+att.Override_ClipSize = 32
 att.Mult_Damage = 0.75
 att.Mult_DamageMin = 0.75
 

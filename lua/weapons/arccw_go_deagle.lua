@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Desert Eagle"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Monstrous handgun inspired by the Automag .44, with a mechanism that resembles an assault rifle more than a handgun. Its powerful .50 calibre rounds are designed to stop grizzly bears."
+SWEP.Trivia_Desc = "Made popular by action movies and video games, the Desert Eagle is a completely impractical pistol whos mechanism more closely resembles an assault rifle than a handgun.  Its main claim to fame is its ability to chamber high-power cartridges such as the ludicrous .50 Action Express."
 SWEP.Trivia_Manufacturer = "Magnum Research"
 SWEP.Trivia_Calibre = ".50 Action Express"
 SWEP.Trivia_Mechanism = "Gas-Operated Rotating Bolt"

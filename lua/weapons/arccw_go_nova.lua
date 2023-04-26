@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Nova"
+SWEP.PrintName = "Nova Tactical"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Pump-action shotgun designed for hunting and tactical use. The SuperNova improves over the Nova with a mercury-based recoil reduction system, drillings for a picatinny rail, and improved, tighter slide."
+SWEP.Trivia_Desc = "A modern pump-action shotgun aimed at police and sporting usage, the Nova boasts a skeletal frame with polymer furniture, making it extremely lightweight.  The tactical model features an accessory rail and ghost-ring sights."
 SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"

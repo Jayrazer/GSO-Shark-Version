@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Karambit"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Claw-like weapon prevalent in southeast Asian martial arts. Features a ring to slip the wielder's finger through, making it difficult to disarm."
+SWEP.Trivia_Desc = "Also known as the 'tiger claw,' the karambit knife originated in Indonesia as a knife for use in various regional martial arts.  Its distinctive ring on the handle allows the user to spin it around their finger."
 SWEP.Trivia_Manufacturer = "United Cutlery"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

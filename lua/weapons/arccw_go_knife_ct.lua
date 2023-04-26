@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Recondo IV"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Military grade combat knife designed to supplement Bundeswehr gear."
+SWEP.Trivia_Desc = "A sturdy and reliable combat knife, the Recondo IV is the standard-issue combat knife of the Bundeswehr."
 SWEP.Trivia_Manufacturer = "Eickhorn Solingen"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

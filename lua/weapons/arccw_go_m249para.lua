@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "M249 SAW"
 SWEP.Trivia_Class = "Squad Assault Weapon"
-SWEP.Trivia_Desc = "US main light machine gun used by the Army and Marine Corps for laying down suppressive fire."
+SWEP.Trivia_Desc = "Developed as the FN Minimi and famously adopted by the U.S. Military, the M249 is noted for its ability to use both ammo belts and STANAG magazines, giving it flexibility as a squad automatic weapon.  The specific variant commonly by the U.S. today features a plastic grip and stock, folding carry handle and a barrel heatshield."
 SWEP.Trivia_Manufacturer = "FN USA"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated Rotating Bolt"

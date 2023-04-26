@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Zeus x27"
 SWEP.Trivia_Class = "Stun Gun"
-SWEP.Trivia_Desc = "Less-lethal weapon designed to incapacitate attackers with a high voltage electric shock. I know there's blood pooling from their lifeless body, their choombas all act as if you just murdered their bro, and they never get up, but rest assured, they are merely knocked out."
+SWEP.Trivia_Desc = "A popular tool for police work, the taser simply sends a paralyzing electric shock through a target's body.  Don't mind the fact they aren't breathing, I assure you they're merely knocked out."
 SWEP.Trivia_Manufacturer = "Axon"
 SWEP.Trivia_Calibre = "Taser Cartridge M26"
 SWEP.Trivia_Mechanism = "Compressed CO2"

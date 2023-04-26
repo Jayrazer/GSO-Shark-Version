@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Galil SAR"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Isareli assault rifle based off the AK pattern but firing NATO cartridges, eventually replaced by the modern ACE."
+SWEP.Trivia_Desc = "Dervied from the the Finnish RK 62, itself based on the venerable AK platform, the Galil takes everything great about a Kalashnikov and adapts it to NATO calibers.  The modular design and ease of use has given it widespread appeal, befitting of its heritage as an AK derrivative."
 SWEP.Trivia_Manufacturer = "Israeli Weapon Industries"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"

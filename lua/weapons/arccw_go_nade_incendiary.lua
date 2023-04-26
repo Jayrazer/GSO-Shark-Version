@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Incendiary Grenade"
 SWEP.Trivia_Class = "Hand Grenade"
-SWEP.Trivia_Desc = "A grenade that produces extremely hot molten iron via a burning thermite reaction. It is mainly intended to be used to destroy material rather than as a weapon."
+SWEP.Trivia_Desc = "A specialized grenade that uses a burning thermite reaction to produce molten hot sparks and flames.  Good for area denial or giving people third-degree burns."
 SWEP.Trivia_Manufacturer = "Day & Zimmermann"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Thermite TH3"

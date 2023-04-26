@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Flashbang"
 SWEP.Trivia_Class = "Hand Grenade"
-SWEP.Trivia_Desc = "The M84 is the currently-issued stun grenade (\"flashbang\") of the United States Armed Forces and SWAT teams throughout the United States. Upon detonation, it emits an intensely loud \"bang\" of 170–180 decibels and a blinding flash of more than one million candela within five feet of initiation, sufficient to cause immediate flash blindness, deafness, tinnitus, and inner ear disturbance. Exposed personnel experience disorientation, confusion and loss of coordination and balance. While these effects are all intended to be temporary, there is risk of permanent injury. Consequently, the M84 is classified as a less-lethal weapon."
+SWEP.Trivia_Desc = "A less-than-lethal grenade that emits a bright, bliding light and a loud noise to disorient targets.  Typically used by SWAT to assist in room entry."
 SWEP.Trivia_Manufacturer = "Picatinny Arsenal"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Magnesium/Ammonium Nitrate Mix"

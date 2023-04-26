@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Bayonet"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Sharp metal blade for stabbing and slashing. Usually found attached to a firearm."
+SWEP.Trivia_Desc = "Designed for mounting on weapons to get out of sticky situations, the bayonet is a concept nearly as old as the shoulder-fired rifle itself.  While it's designed for mounting, there's nothing stopping you from using it as a regular combat knife."
 SWEP.Trivia_Manufacturer = "Cold Steel"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

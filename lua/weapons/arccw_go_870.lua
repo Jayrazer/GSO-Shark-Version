@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "R870"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Venerable pump shotgun practically associated with the very concept. At over 3 million sold, the Model 870 is the most popular shotgun ever produced."
+SWEP.Trivia_Desc = "One of the most well-known modern pump shotgun designs, over 3 million units of the Model 870 have been produced since its introduction in 1950.  It has seen adoption in almost every area, from military to police to civilian shooters and hunters."
 SWEP.Trivia_Manufacturer = "Remington Arms"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"

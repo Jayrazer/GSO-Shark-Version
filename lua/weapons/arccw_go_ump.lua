@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "UMP-45"
 SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = ".45 calibre submachine gun created to replace the MP5. Has a more controllable fire rate, and 2-round burst features."
+SWEP.Trivia_Desc = "A thoroughly modern SMG, the UMP is available in multiple calibers and configurations, and is both reliable and easy to control.  Although it was intended to supersede the MP5, being both lighter and cheaper, both have coexisted since the UMP's introduction."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = ".45 ACP"
 SWEP.Trivia_Mechanism = "Roller-Delayed Blowback"

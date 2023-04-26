@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "AUG A3"
+SWEP.PrintName = "AUG"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Bullpup assault rifle, whose design puts the mechanism behind the grip, allowing for a longer barrel without extending the effective length of the weapon. Good magazine capacity, poor recoil characteristics."
+SWEP.Trivia_Desc = "Radical for its day and still quite futuristic by today's standards, the AUG's bullpup layout and extensive use of aluminum and polymer make it truly befitting of the title of 'spacegun.'  Its many interchangable components allow the shooter to customize it to fit their preferences."
 SWEP.Trivia_Manufacturer = "Steyr"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
@@ -150,7 +150,6 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_aug_barrel_long"] = {
-		NameChange = "AUG HBAR",
         VMBodygroups = {
             {ind = 4, bg = 2},
             {ind = 2, bg = 1},
@@ -166,7 +165,6 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_aug_ammo_9mm"] = {
-        NameChange = "AUG Para",
         VMBodygroups = {
             {ind = 3, bg = 1},
         },
@@ -183,6 +181,25 @@ SWEP.AttachmentElements = {
         },
     }
 }
+
+SWEP.Hook_NameChange = function(wep, name)
+    local eles = wep:GetActiveElements()
+
+    local prefix = "AUG "
+    local stock = "A3"
+
+    for i, k in pairs(eles or {}) do
+        if k == "go_aug_barrel_long" then
+            stock = "HBAR"
+        elseif k == "go_aug_barrel_short" then
+            stock = "XS"
+		elseif k == "go_aug_ammo_9mm" then
+			prefix = "AUG 9mm "
+        end
+    end
+
+    return prefix .. stock
+end
 
 SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = true

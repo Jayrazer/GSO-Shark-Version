@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "SSG 08"
 SWEP.Trivia_Class = "Sniper Rifle"
-SWEP.Trivia_Desc = "Precision sniper rifle for police and military use, also popular among civilian hunters."
+SWEP.Trivia_Desc = "Tracing its roots back to the legendary SSG 69, the SSG 08 is a thouroughly modern sniper rifle, with adjustability in all areas.  It's claimed to have sub-MOA preceision if fired with the right ammunition.  Contrary to its popular nickname, it has little in common with the Steyr Scout."
 SWEP.Trivia_Manufacturer = "Steyr Mannlicher"
 SWEP.Trivia_Calibre = ".308 Winchester"
 SWEP.Trivia_Mechanism = "Bolt-Action"

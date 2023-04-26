@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Bowie Knife"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Large, versatile knife popularized in a Louisiana bar fight and carried by Rambo himself."
+SWEP.Trivia_Desc = "Developed by Rezin Bowie in the 19th-century for his brother Jim, the Bowie Knife is nearly synonymous with any large comabt knife, with the pattern remaining popular among collectors and fighters to this day."
 SWEP.Trivia_Manufacturer = "AITOR"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

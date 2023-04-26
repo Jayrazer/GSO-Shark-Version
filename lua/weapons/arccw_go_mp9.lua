@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MP9"
 SWEP.Trivia_Class = "Machine Pistol"
-SWEP.Trivia_Desc = "9mm machine pistol developed from the Steyr TMP, with side-folding stock."
+SWEP.Trivia_Desc = "An updated variant of the earlier Steyr TMP, the MP9 is a compact 9mm machine pistol suitable for close-quarters encounters.  The main differences between it and the TMP are the addition of accessory rails, a new folding stock and revised barrel shroud."
 SWEP.Trivia_Manufacturer = "Brugger & Thomet"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short-Recoil Locking Barrel"

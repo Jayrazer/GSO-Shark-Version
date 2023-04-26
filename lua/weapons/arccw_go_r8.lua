@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "S&W 327 R8"
 SWEP.Trivia_Class = "Revolver"
-SWEP.Trivia_Desc = "Modern revolver made for the modern world. Mitigates some disadvantages of traditional revolvers with an 8-round cylinder and built in rails for sights and LAMs."
+SWEP.Trivia_Desc = "A special production model of the S&W Model 327, the R8 features an 8-round cylinder and a heavy barrel with an accessory rail.  Extremely powerful and accurate, its major downside is its heavy double action trigger pull."
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
 SWEP.Trivia_Calibre = ".357 Magnum"
 SWEP.Trivia_Mechanism = "Double-Action"

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Smoke Grenade"
 SWEP.Trivia_Class = "Hand Grenade"
-SWEP.Trivia_Desc = "A smoke grenade that produces a white smoke cloud for concealment. Smoke clouds last for around 15 seconds."
+SWEP.Trivia_Desc = "A specialized grenade that emits a cloud of smoke that blocks enemy sightlines for a short period of time."
 SWEP.Trivia_Manufacturer = "Combined Systems INC"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Pyrotechnic delay fuze"

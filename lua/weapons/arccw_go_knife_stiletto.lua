@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Stiletto"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Spring-loaded switchblade with a long, narrow profile. Designed for stabbing."
+SWEP.Trivia_Desc = "An elegant blade for an elegant assassin.  The stiletto's narrow, tapered blade reduces friction when stabbing, allowing the blade to penetrate deep into the target."
 SWEP.Trivia_Manufacturer = "AB"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

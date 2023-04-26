@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MAG-7"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "South African combat shotgun that accepts minishells in a magazine located in the pistol grip. It was created to combine the features of a submachine gun and a pump shotgun. Featured in the 1996 film 'Romeo and Juliet' starring Leonardo DiCaprio."
+SWEP.Trivia_Desc = "A futuristic pump-shotgun with an unorthodox design, the MAG-7 combines the close-quarters stopping power of 12 gague with an SMG-sized profile.  The mag-in-grip design forces the weapon to use proprietary 12G x 60mm minishells.  Famoulsy appeared in the 1996 film 'Romeo + Juliett' starring Leonardo DiCaprio."
 SWEP.Trivia_Manufacturer = "Techno Arms"
 SWEP.Trivia_Calibre = "12G x 60mm Minishells"
 SWEP.Trivia_Mechanism = "Pump-Action"
@@ -146,6 +146,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_mag7_barrel_long"] = {
+		NamChange = "Longsword",
         VMBodygroups = {{ind = 1, bg = 2}},
         AttPosMods = {
             [5] = {vpos = Vector(0, -4.15, 23.5),}

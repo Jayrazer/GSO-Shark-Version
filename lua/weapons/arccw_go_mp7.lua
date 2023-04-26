@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MP7"
 SWEP.Trivia_Class = "PDW"
-SWEP.Trivia_Desc = "Lightweight personal defense weapon once slated to replace the 9mm pistol as the NATO standard weapon for units that didn't need to carry full rifles."
+SWEP.Trivia_Desc = "Designed to be a lightweight and compact weapon for special forces and tank crews, the MP7 was developed with knowledge gained from the G11 and OICW programs.  The proprietary 4.6 x 30mm cartridge sports excellent armor pierceing capabilites."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "4.6x30mm"
 SWEP.Trivia_Mechanism = "Gas-Operated"

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Butterfly Knife"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Widely illicit pocketknife with unique, pivoting handles. Also called a balisong, as a homage to its Filipino origins."
+SWEP.Trivia_Desc = "Also known as a 'balisong,' the butterfly knife is as flashy as it is deadly.  Originally developed as an easily-concealable defense weapon, the unique folding design has led to a culture of performance art in which wielders perform flipping tricks with their knives."
 SWEP.Trivia_Manufacturer = "Terry Guinn"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

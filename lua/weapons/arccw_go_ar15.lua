@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Colt Commando"
+SWEP.PrintName = "CAR-15"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "A precursor to the M4. Created by Eugene Stoner and sold originally by Armalite, it has since become the basis for the most popular rifles in the world."
+SWEP.Trivia_Desc = "A classic assault rifle from one of the 20th-century's most well known designers, the AR-15 started on shakey feet but quickly proved itself as a venerable weapon platform.  Today it remains the basis for many of the world's most popular firearms, a mainstay of the U.S. Armed Forces and subject to intense controversy over its ease of access by the general public."
 SWEP.Trivia_Manufacturer = "Colt"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
@@ -225,6 +225,31 @@ SWEP.AttachmentElements = {
         }
 	},
 }
+
+SWEP.Hook_NameChange = function(wep, name)
+    local eles = wep:GetActiveElements()
+
+    local prefix = "CAR-15"
+    local stock = ""
+
+    for i, k in pairs(eles or {}) do
+        if k == "go_ar15_barrel_long" then
+            prefix = "M16"
+		elseif k == "go_ar15_barrel_med" then
+			prefix = "XM4"
+		elseif k == "go_m4_mag_10_50" then
+			stock = " .50"
+		elseif k == "go_m4_mag_5_50" then
+			stock = " .50"
+		elseif k == "go_m4_mag_30_9mm" then
+			prefix = "Colt 9mm SMG"
+		elseif k == "go_m4_mag_21_9mm" then
+			prefix = "Colt 9mm SMG"
+		end
+    end
+
+    return prefix .. stock
+end
 
 SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = true

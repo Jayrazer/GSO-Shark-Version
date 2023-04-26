@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "P90"
 SWEP.Trivia_Class = "PDW"
-SWEP.Trivia_Desc = "Personal defense weapon with a high-capacity magazine, loading tiny pointed armor-piercing rounds. Good firepower in a compact package. The 'TRI RAIL' model has three picatinny rails for attachments."
+SWEP.Trivia_Desc = "Renowned for its sci-fi looks, the P90 was developed in response to NATO's call for a 'personal defense weapon' that could be issued to vehicle crews in 1989.  The 5.7 x 28mm cartridge, developed alongside the weapon itself, boasts unparalleled armor penetration capabilities."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
 SWEP.Trivia_Calibre = "5.7x28mm"
 SWEP.Trivia_Mechanism = "Closed-Bolt Blowback"

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MAC-10"
 SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = "A classic 'gangster' machine pistol popular for its ease of converting to full-auto, originally conceived as a low cost special forces weapon. Poor recoil, but a powerful .45 ACP round and fast rate of fire allow it to do heavy damage in a short time."
+SWEP.Trivia_Desc = "Designed as a cheap SMG for special forces in Vietnam, the MAC-10 has gained a reputation as popular weapon amongst criminal gangs and terrorists, owing to the ease at which one can modify a civilian model to be fully-automatic.  Designed specifically to accept a suppressor that doubles as a handguard, this model has a simple leather strap for the shooter to grab onto."
 SWEP.Trivia_Manufacturer = "Military Armaments Corporation"
 SWEP.Trivia_Calibre = ".45 ACP"
 SWEP.Trivia_Mechanism = "Open-Bolt Straight Blowback"

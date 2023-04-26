@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "HE Grenade"
 SWEP.Trivia_Class = "Hand Grenade"
-SWEP.Trivia_Desc = "High explosive fragmentation hand grenade. Can be cooked."
+SWEP.Trivia_Desc = "A tried and true concept, the HE grenade explodes after a short fuse."
 SWEP.Trivia_Manufacturer = "Day & Zimmermann"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Composition B"

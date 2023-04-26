@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Dagger"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Knives are a staple component of every combat and survival loadout. Only God knows where this one has been, but it'll do."
+SWEP.Trivia_Desc = "A simple and practical blade, this unbranded dagger is said to have been the personal weapon of an elite terrorist who was killed in a failed bombing of a decomissioned nuclear powerplant."
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Barely Sharp Edge"
 SWEP.Trivia_Country = "...Persia?"

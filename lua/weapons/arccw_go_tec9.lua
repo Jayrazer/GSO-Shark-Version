@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "TEC-9"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Cheap open bolt pistol originally created for the Swedish special forces market. However, the Swedish market for budget special forces submachine guns wasn't very big, so they exported the design to the United States where it became infamous as a cheap pistol that could be easily converted into full auto. As a result, it was the direct target of several 'assault weapon' bans."
+SWEP.Trivia_Desc = "A cheap but popular weapon, the TEC-9 started with intentions of being an SMG for Swedish special forces, but quickly became a hot export item.  The weapon is easy to convert to fully-automatic, making it popular amongst criminals and subject to significant controversy."
 SWEP.Trivia_Manufacturer = "Intratec"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Straight Blowback"

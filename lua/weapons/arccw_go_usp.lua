@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "USP"
+SWEP.PrintName = "USP Tactical"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Iconic pistol designed for police and special forces use. Threaded barrel allows for suppressor attachment."
+SWEP.Trivia_Desc = "A large pistol designed primarily for U.S. law enforcement, the USP started as a part of the USSOCOM project for a new handgun and later became a well-rounded multi-caliber pistol.  The tactical variant features a threaded barrel for accepting a suppressor."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = ".45 ACP"
 SWEP.Trivia_Mechanism = "Short Recoil DA/SA"

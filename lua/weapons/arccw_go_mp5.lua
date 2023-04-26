@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MP5A3"
 SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = "Popular lightweight 9mm submachine gun used by police and militaries around the world. Well-balanced performance."
+SWEP.Trivia_Desc = "Considered by many to be the greatest SMG ever made, the MP5 has been a popular police and military weapon since its introduction in 1966.  The weapon was made famous for its role in the 1980 siege of the Iranian embassy in London in the hands of British SAS operators."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Roller-Delayed Blowback"
@@ -292,24 +292,22 @@ SWEP.AttachmentElements = {
 SWEP.Hook_NameChange = function(wep, name)
     local eles = wep:GetActiveElements()
 
-    local prefix = "MP5"
-    local stock = "A3"
+    local prefix = "MP5A"
+    local stock = "3"
 
     for i, k in pairs(eles or {}) do
         if k == "go_mp5_barrel_sd" then
             prefix = "MP5SD"
 		elseif k == "go_mp5_mag_10mm" then
-			prefix = "MP5/10 "
+			prefix = "MP5/10-"
 		elseif k == "go_mp5_barrel_short" then
-			prefix = "MP5K"
+			prefix = "MP5KA"
 		elseif k == "go_mp5_barrel_freeman" then
-			prefix = "9mm AR "
+			prefix = "9mm AR A"
         elseif k == "go_mp5_stock_heavy" then
-            stock = "A2"
+            stock = "2"
         elseif k == "go_stock_none" then
-            stock = "A1"
-		elseif k == "go_stock_ump" then
-			stock = " PDW"
+            stock = "1"
         elseif k == "go_mp5_barrel_long" then
             prefix = "HK94"
         end
