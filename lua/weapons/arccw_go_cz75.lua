@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "CZ 75"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "A Czech pistol based on the ever-popular Browning Hi-Power, the CZ 75 was one of the first 'wonder nines;' double-action 9mm pistols with a double-stack magazine.  Popular as a civilian firearm, the CZ has remained in production in more or less the same form since its inception."
+SWEP.Trivia_Desc = "A Czech pistol based on the ever-popular Browning Hi-Power, the CZ 75 has remained a popular civilian sidearm since its introduction, with the design having barely changed over the years."
 SWEP.Trivia_Manufacturer = "Česká Zbrojovka"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short Recoil"

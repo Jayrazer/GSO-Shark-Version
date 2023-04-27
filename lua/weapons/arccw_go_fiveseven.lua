@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Five-seveN"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Developed as a caliber companion the P90, the Five-seveN is designed around the 5.7x28mm cartridge, a specialized round that has fantastic armor penetration capabilities.  The pistol boasts a lightweight polymer frame and an unmatched magazine capacity of 20 rounds."
+SWEP.Trivia_Desc = "Developed alongside the P90 and 5.7x28mm cartridge, the Five-seveN is lightweight and sports a high magazine capacity of 20 rounds.  Its round gives it unmatched armor penetration capabilities."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
 SWEP.Trivia_Calibre = "5.7x28mm"
 SWEP.Trivia_Mechanism = "Delayed Blowback"

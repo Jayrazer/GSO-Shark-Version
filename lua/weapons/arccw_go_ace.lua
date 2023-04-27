@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Galil ACE"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "A modern update to Israel's venerable Galil, the ACE series aims to bring the rifle up to modern standards while retaining its trademark reliability and ease of use.  The design is very modular, with multiple barrel and calibre configurations available."
+SWEP.Trivia_Desc = "A modern update to the Galil with polymer furniture and multiple caliber options.  The design retains the original Galil's trademark reliability and ease of use."
 SWEP.Trivia_Manufacturer = "Israeli Weapon Industries"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = ""

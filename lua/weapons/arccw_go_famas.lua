@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "FAMAS G2"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "French bullpup assault rifle capable of three-round bursts.  The G2 is a recent model with a STANAG-compatible magwell, but hasn't seen as widespread adoption as the older F1 model."
+SWEP.Trivia_Desc = "A clunky bullpup design, the FAMAS posesses a quick rate of fire and 3-round burst capabilities.  The G2 model aims to mitigate issues with the earlier F1 model, such as a STANAG-compatible magwell."
 SWEP.Trivia_Manufacturer = "GIAT Industries"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Delayed Blowback"

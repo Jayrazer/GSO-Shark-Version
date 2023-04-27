@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "R870"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "One of the most well-known modern pump shotgun designs, over 3 million units of the Model 870 have been produced since its introduction in 1950.  It has seen adoption in almost every area, from military to police to civilian shooters and hunters."
+SWEP.Trivia_Desc = "One of the most well-known modern pump shotgun designs, the Model 870 has seen widespread adoption in military, police and civilian roles thanks to its simplicity and ready availability."
 SWEP.Trivia_Manufacturer = "Remington Arms"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"

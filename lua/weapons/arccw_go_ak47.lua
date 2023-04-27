@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AKM"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Perhaps the single most well-known assualt rifle in the world, the AK is a timeless design that continues to see use in all corners of the world.  Owing to it's infallible reliablity and many variants, the AK has become the weapon of choice for militaries and militias alike, leading the charge in both authoritarian war campaigns and bloody fights for freedom."
+SWEP.Trivia_Desc = "Perhaps the most well-known assault rifle in the world, the AK's versatility and reliability have made it a popular choice among militaries, freedom fighters and terrorists alike."
 SWEP.Trivia_Manufacturer = "Izhmash"
 SWEP.Trivia_Calibre = "7.62x39mm Soviet"
 SWEP.Trivia_Mechanism = "Gas-Operated"

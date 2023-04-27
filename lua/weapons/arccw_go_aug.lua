@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AUG"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Radical for its day and still quite futuristic by today's standards, the AUG's bullpup layout and extensive use of aluminum and polymer make it truly befitting of the title of 'spacegun.'  Its many interchangable components allow the shooter to customize it to fit their preferences."
+SWEP.Trivia_Desc = "A unique and high-tech weapon truly befitting of the title of 'spacegun,' the AUG's bullpup layout and lightweight construction give it superior handling and accuracy while retaining a short profile."
 SWEP.Trivia_Manufacturer = "Steyr"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"

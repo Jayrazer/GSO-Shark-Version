@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "AWP"
+SWEP.PrintName = "Arctic Warfare"
 SWEP.Trivia_Class = "Sniper Rifle"
-SWEP.Trivia_Desc = "The world's premier precision rifle, the Arctic Warfare series once held the record for longest confirmed sniper kill of 2,475 meters, and has found widespread usage in military, police and civilian applications.  The rifle has many features that make it able to operate efficiently in extreme cold, hence its name."
+SWEP.Trivia_Desc = "The basis for all modern sniper rifles, the Arctic Warfare series is deadly accurate and immensely powerful.  The rifle sports several features that ensure great performance in extreme cold, hence its name."
 SWEP.Trivia_Manufacturer = "Accuracy International"
 SWEP.Trivia_Calibre = ".338 Lapua Magnum"
 SWEP.Trivia_Mechanism = "Bolt-Action"

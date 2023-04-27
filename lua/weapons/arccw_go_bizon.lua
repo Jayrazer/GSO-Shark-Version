@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "PP-19 Bizon"
 SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = "Russian SMG made for remote FSB special forces divisions. Based on the PP-19-01 Vityaz SMG, itself based on the AK-47, it is capable of carrying an unprecedented amount of ammunition in a single magazine."
+SWEP.Trivia_Desc = "Derived from the AK platform, the Bizon uses a unique helical magazine that gives it unmatched capacity.  The design has proven to be a bit unreliable, but still sees use by Russian FSB."
 SWEP.Trivia_Manufacturer = "Izhmash"
 SWEP.Trivia_Calibre = "9x18mm Makarov"
 SWEP.Trivia_Mechanism = "Closed-Bolt Blowback"
