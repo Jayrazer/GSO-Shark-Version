@@ -176,7 +176,7 @@ SWEP.AttachmentElements = {
 	},
     ["go_ak_barrel_tac"] = {
         VMBodygroups = {
-            {ind = 3, bg = 3},
+            {ind = 3, bg = 4},
             {ind = 7, bg = 0}
         },
         AttPosMods = {
