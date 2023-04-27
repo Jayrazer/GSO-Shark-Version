@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "FN FAL"
+SWEP.PrintName = "FAL Para"
 SWEP.Trivia_Class = "Battle Rifle"
 SWEP.Trivia_Desc = "'The right arm of the free world.'  The FAL was one of the first battle rifles and saw widespread adoption in the wake of World War II, becoming one of the most ubiquitous riflesi the world."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
@@ -192,6 +192,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_fal_barrel_short"] = {
+		NameChange = "FAL Para 50.63",
         VMBodygroups = {
             {ind = 1, bg = 2},
             {ind = 2, bg = 2},
@@ -206,6 +207,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_fal_barrel_long"] = {
+		NameChange = "FAL",
         VMBodygroups = {
             {ind = 1, bg = 3},
             {ind = 2, bg = 3},
