@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_rif_famas.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_rif_famas.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_rif_famas_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_rif_famas_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
@@ -172,12 +172,14 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_famas_mag_25"] = {
-		NameChange = "FAMAS G1",
+		NameChange = "FAMAS F1",
         VMBodygroups = {
             {ind = 3, bg = 1},
+			{ind = 7, bg = 1},
         },
         WMBodygroups = {
             {ind = 3, bg = 1},
+			{ind = 7, bg = 1},
         },
     },
     ["go_556_ammo_60round"] = {
