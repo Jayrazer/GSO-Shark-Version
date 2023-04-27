@@ -1,4 +1,4 @@
-att.PrintName = "ACOG TA50 (3x)"
+att.PrintName = "ACOG (3x)"
 att.Icon = Material("entities/acwatt_go_optic_acog2.png", "mips smooth")
 att.Description = "Lower-magnification magnified gunsight. Lacks a backup iron sight."
 

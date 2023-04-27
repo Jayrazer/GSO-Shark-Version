@@ -1,4 +1,4 @@
-att.PrintName = "Barska Red Dot (RDS)"
+att.PrintName = "Barska (RDS)"
 att.Icon = Material("entities/acwatt_go_optic_barska.png", "mips smooth")
 att.Description = "Open red dot sight with circular reticle."
 

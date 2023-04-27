@@ -1,4 +1,4 @@
-att.PrintName = "LPVO Scope (8x)"
+att.PrintName = "LPVO (8x)"
 att.Icon = Material("entities/acwatt_go_optic_ssr.png", "mips smooth")
 att.Description = "Low Power Variable Optic with the ability to adjust its zoom level depending on the situation."
 

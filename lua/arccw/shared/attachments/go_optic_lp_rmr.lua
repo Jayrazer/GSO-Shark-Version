@@ -1,4 +1,4 @@
-att.PrintName = "Trijicon RMR (LP)"
+att.PrintName = "RMR (LP)"
 att.Icon = Material("entities/acwatt_go_optic_lp_rmr.png", "mips smooth")
 att.Description = "Low-profile red dot sight for pistols with a triangular reticle."
 

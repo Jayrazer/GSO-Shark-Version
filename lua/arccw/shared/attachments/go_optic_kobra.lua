@@ -1,4 +1,4 @@
-att.PrintName = "EKP-8-18 Kobra (RDS)"
+att.PrintName = "Kobra (RDS)"
 att.Icon = Material("entities/acwatt_go_optic_kobra.png", "mips smooth")
 att.Description = "Russian reflex sight with open cross reticle. Also known as the 'Kobra'."
 

@@ -1,4 +1,4 @@
-att.PrintName = "ELCAN C79 (3.5x)"
+att.PrintName = "ELCAN (3.5x)"
 att.Icon = Material("entities/acwatt_go_optic_elcan.png", "mips smooth")
 att.Description = "Magnified precision combat optic for light machine guns. Provides effective magnification."
 

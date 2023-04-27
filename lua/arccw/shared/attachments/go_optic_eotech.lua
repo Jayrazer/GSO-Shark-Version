@@ -1,4 +1,4 @@
-att.PrintName = "EOTech 553 (RDS)"
+att.PrintName = "EOTech (RDS)"
 att.Icon = Material("entities/acwatt_go_optic_eotech.png", "mips smooth")
 att.Description = "Boxy holographic sight for long rifles."
 

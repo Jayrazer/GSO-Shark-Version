@@ -1,4 +1,4 @@
-att.PrintName = "Hunter Compact (2.5x)"
+att.PrintName = "Hunter (2.5x)"
 att.Icon = Material("entities/acwatt_go_optic_hunter.png", "mips smooth")
 att.Description = "Reduced size scope for pistols and light rifles."
 

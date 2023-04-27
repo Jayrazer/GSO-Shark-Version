@@ -1,4 +1,4 @@
-att.PrintName = "PM-II (7x)"
+att.PrintName = "Schmidt (7x)"
 att.Icon = Material("entities/acwatt_go_optic_schmidt.png", "mips smooth")
 att.Description = "Medium-long range sniper optic. Popular among hunters."
 

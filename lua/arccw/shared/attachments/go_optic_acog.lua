@@ -1,4 +1,4 @@
-att.PrintName = "ACOG TA01 (4x)"
+att.PrintName = "TA01 (4x)"
 att.Icon = Material("entities/acwatt_go_optic_acog.png", "mips smooth")
 att.Description = "Magnified medium-range optic. ACOG stands for 'Advanced Combat Optical Gunsight'. Has a backup iron sight that can be used in a pinch."
 

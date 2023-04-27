@@ -1,4 +1,4 @@
-att.PrintName = "Leupold HAMR (HYBR)"
+att.PrintName = "HAMR (HYBR)"
 att.Icon = Material("entities/acwatt_go_optic_hamr.png", "mips smooth")
 att.Description = "Zoom scope with integrated red dot sight. Slightly heavier than similar scopes."
 

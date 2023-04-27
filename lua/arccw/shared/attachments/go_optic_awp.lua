@@ -1,4 +1,4 @@
-att.PrintName = "Arctic Warfare (10x)"
+att.PrintName = "AW Scope (10x)"
 att.Icon = Material("entities/acwatt_go_optic_awp.png", "mips smooth")
 att.Description = "Long-range optic used for military and police snipers in cold weather conditions."
 
