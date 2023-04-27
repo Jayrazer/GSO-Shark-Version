@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Galil SAR"
+SWEP.PrintName = "Galil ARM"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "An Israeli assault rifle derived from the Finnish RK 62, itself derived from the venerable AK.  The weapon is essentially a heavily modified AK chambered for NATO calibers."
 SWEP.Trivia_Manufacturer = "Israeli Weapon Industries"
