@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_rif_ak47.mdl"
-SWEP.WorldModel = "models/weapons/w_rif_ak47.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_rif_ak47_extras.mdl"
+SWEP.WorldModel = "models/weapons/w_rif_ak47_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
@@ -164,6 +164,16 @@ SWEP.AttachmentElements = {
         --     CrosshairInSights = false
         -- }
     },
+	["go_ak_barrel_sniper"] = {
+        VMBodygroups = {
+            {ind = 3, bg = 3},
+        },
+        AttPosMods = {
+            [5] = {
+                vpos = Vector(0, -3.4, 32),
+            }
+        },
+	},
     ["go_ak_barrel_tac"] = {
         VMBodygroups = {
             {ind = 3, bg = 3},
