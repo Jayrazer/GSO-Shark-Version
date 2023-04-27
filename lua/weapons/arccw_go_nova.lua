@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Nova Tactical"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "A modern pump-action shotgun aimed at police and sporting usage, the Nova boasts a skeletal frame with polymer furniture, making it extremely lightweight.  The tactical model features an accessory rail and ghost-ring sights."
+SWEP.Trivia_Desc = "A modern pump-action shotgun aimed at police and sporting usage, the Nova boasts a skeletal frame with polymer furniture, making it extremely lightweight."
 SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"

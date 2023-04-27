@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "P2000"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "The P2000 is a compact handgun based on the USP designed specifically for law enforcement, using lightweight polymer and highly ergonomic construction.  It's a bit basic and uremarkable, but usually gets the job done."
+SWEP.Trivia_Desc = "The P2000 is a compact handgun based on the USP designed specifically for law enforcement, using lightweight polymer and highly ergonomic construction.  It's uremarkable, but usually gets the job done."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short Recoil"

@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "MP7"
+SWEP.PrintName = "MP7A1"
 SWEP.Trivia_Class = "PDW"
-SWEP.Trivia_Desc = "Designed to be a lightweight and compact weapon for special forces and tank crews, the MP7 was developed with knowledge gained from the G11 and OICW programs.  The proprietary 4.6 x 30mm cartridge sports excellent armor pierceing capabilites."
+SWEP.Trivia_Desc = "The MP7 was designed to answer NATO's call for a 'personal defense weapon' that could be issued to vehicle crews.  The proprietary 4.6x30mm cartridge sports excellent armor pierceing capabilites and is naturally subsonic."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "4.6x30mm"
 SWEP.Trivia_Mechanism = "Gas-Operated"

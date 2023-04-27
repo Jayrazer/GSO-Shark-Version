@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MP5A3"
 SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = "Considered by many to be the greatest SMG ever made, the MP5 has been a popular police and military weapon since its introduction in 1966.  The weapon was made famous for its role in the 1980 siege of the Iranian embassy in London in the hands of British SAS operators."
+SWEP.Trivia_Desc = "Considered by many to be the greatest SMG ever made, the MP5 is popular military and police units.  The weapon gained iconic status during the 1980 siege of the Iranian embassy in London, where it was used by British SAS."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Roller-Delayed Blowback"

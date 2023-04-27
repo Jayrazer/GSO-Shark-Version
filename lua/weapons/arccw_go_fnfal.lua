@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "FN FAL"
 SWEP.Trivia_Class = "Battle Rifle"
-SWEP.Trivia_Desc = "'The right arm of the free world,' the FAL was one of the first battle rifles that outfitted the infantries of several NATO member states after the second World War.  Its slick design and powerful cartridge led to it becoming one of the most widely-adopted rifles in the world."
+SWEP.Trivia_Desc = "'The right arm of the free world.'  The FAL was one of the first battle rifles and saw widespread adoption in the wake of World War II, becoming one of the most ubiquitous riflesi the world."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
 SWEP.Trivia_Calibre = "7.62x51mm NATO"
 SWEP.Trivia_Mechanism = "Gas Piston Tilting Breech"

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "G3A3"
 SWEP.Trivia_Class = "Battle Rifle"
-SWEP.Trivia_Desc = "Heavy, but reliable, the G3 was an early battle rifle that armed many NATO member states following World War 2, and remained the primary service rifle of the Bundeswehr until the 1990's.  Developed from the Spanish CETME, the roller-delayed blowback mechanism introduced with the G3 would later be developed into the MP5."
+SWEP.Trivia_Desc = "Developed from the Spanish CETME, the G3 became a widely-adopted battle rifle among NATO member states in the wake of the World War II.  The roller-delayed blowback mechanism would later serve as the basis for the MP5 sub-machinegun."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "7.62x51mm NATO"
 SWEP.Trivia_Mechanism = "Roller-Delayed Blowback"
@@ -245,25 +245,21 @@ SWEP.AttachmentElements = {
         },
     },
     ["go_g3_mag_20_556"] = {
-        NameChange = "HK33",
         VMBodygroups = {
             {ind = 4, bg = 3},
         },
     },
     ["go_g3_mag_30_556"] = {
-        NameChange = "HK33",
         VMBodygroups = {
             {ind = 4, bg = 4},
         },
     },
     ["go_g3_mag_60_556"] = {
-        NameChange = "HK33",
         VMBodygroups = {
             {ind = 4, bg = 5},
         },
     },
     ["go_g3_scope"] = {
-        NameChange = "G3SG1",
         VMBodygroups = {
             {ind = 9, bg = 1},
 			{ind = 6, bg = 0},
@@ -297,6 +293,14 @@ function SWEP:Hook_NameChange(name)
             model = "K"
 		elseif k == "go_g3_stock_collapsible" then
 			stock = "A4"
+		elseif k == "go_g3_mag_20_556" then
+			prefix = "HK33"
+		elseif k == "go_g3_mag_30_556" then
+			prefix = "HK33"
+		elseif k == "go_g3_mag_60_556" then
+			prefix = "HK33"
+		elseif k == "go_g3_scope" then
+			stock = "SG/1"
         end
     end
         return prefix .. model .. stock

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "SCAR-H"
 SWEP.Trivia_Class = "Battle Rifle"
-SWEP.Trivia_Desc = "A modern multi-caliber rifle designed to meet the needs of special forces units, the SCAR is available in 5.56 or 7.62 and a multitude of configurations.  The modular design allows for it to be quickly reconfigured in the field to suit a variety of roles."
+SWEP.Trivia_Desc = "A modern multi-caliber rifle designed to meet the needs of special forces units, the SCAR is designed with modularity in mind, allowing it to fullfil many different combat roles."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
 SWEP.Trivia_Calibre = "7.62x51mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated Rotating Bolt"

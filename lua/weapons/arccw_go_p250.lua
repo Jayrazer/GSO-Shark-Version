@@ -3,9 +3,9 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "P250"
+SWEP.PrintName = "P250 Compact"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Drawing from SIG's experience with quality handguns, the P250 is a compact, multi-caliber handgun with a unique self-decocking double action trigger.  Chambered for the unique .357 SIG cartridge, the pistol boasts excellent stopping power up close without sacrificing magazine capacity."
+SWEP.Trivia_Desc = "Drawing from SIG's experience with quality handguns, the P250 is a compact, multi-caliber handgun with a unique self-decocking double action trigger."
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Calibre = ".357 SIG"
 SWEP.Trivia_Mechanism = "Short Recoil"
@@ -139,6 +139,7 @@ SWEP.AttachmentElements = {
         },
     },
     ["go_p250_slide_short"] = {
+		NameChange = "P250 Subcompact",
         VMBodygroups = {
             {ind = 0, bg = 1},
             {ind = 1, bg = 1},
@@ -151,6 +152,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_p250_slide_long"] = {
+		NameChange = "P250",
         VMBodygroups = {
             {ind = 0, bg = 2},
             {ind = 1, bg = 2},

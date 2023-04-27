@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Glock 17"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Perhaps the most well-known handgun in the world, the Glock has been the standard for modern handguns since its introduction in the 1980's.  Its incredibly simple design and construction, combined with countless variants in every pistol caliber imaginable has made it popular amongst, police, military, civilians and criminals alike."
+SWEP.Trivia_Desc = "Perhaps the most well-known handgun in the world, the Glock's simplicity and reliability, along with extensive variants and caliber options have made it a popular choice of sidearm for military, police and civilians alike."
 SWEP.Trivia_Manufacturer = "GLOCK GmbH"
 SWEP.Trivia_Calibre = "9x19mm Parabellum"
 SWEP.Trivia_Mechanism = "Short Recoil"

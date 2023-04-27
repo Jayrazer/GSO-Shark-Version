@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "USP Tactical"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "A large pistol designed primarily for U.S. law enforcement, the USP started as a part of the USSOCOM project for a new handgun and later became a well-rounded multi-caliber handgun.  The tactical variant features a threaded barrel for accepting a suppressor."
+SWEP.Trivia_Desc = "Initially developed for USSOCOM, the USP is a well-rounded large-framed pistol.  The tactical variant features a threaded barrel for accepting a suppressor."
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = ".45 ACP"
 SWEP.Trivia_Mechanism = "Short Recoil DA/SA"

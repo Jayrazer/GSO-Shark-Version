@@ -3,14 +3,14 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - GSO" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "SIG556"
+SWEP.PrintName = "SIG556 HOLO"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Developed from SIG's popular SG550 series of rifles, the SG556 is designed specifically for the civilian market.  The SIG556 features a STANAG-compatible magwell, polymer furniture and multiple accessory rails."
+SWEP.Trivia_Desc = "Derrived from SIG's popular SG550 series of rifles, the SG556 is designed for the civilian market.  The rifle sports a STANAG-compatible magwell, polymer furniture and multiple accessory rails."
 SWEP.Trivia_Manufacturer = "SIG Sauer"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
 SWEP.Trivia_Country = "USA"
-SWEP.Trivia_Year = 1993
+SWEP.Trivia_Year = 2007
 
 SWEP.Slot = 2
 

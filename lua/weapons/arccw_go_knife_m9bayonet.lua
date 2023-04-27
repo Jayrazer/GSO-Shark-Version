@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "M9 Bayonet"
 SWEP.Trivia_Class = "Knife"
-SWEP.Trivia_Desc = "Developed in the 1980's as a modern update to the aging M7 bayonet, the M9 is the main bladed weapon of the U.S. Military, serving as a bayonet, combat knife and wirecutter."
+SWEP.Trivia_Desc = "Designed for mounting on weapons to get out of sticky situations, the bayonet is a concept nearly as old as the shoulder-fired rifle itself.  While it's designed for mounting on a rifle, there's nothing stopping you from using it as a regular combat knife."
 SWEP.Trivia_Manufacturer = "Cold Steel"
 SWEP.Trivia_Calibre = "N/A"
 SWEP.Trivia_Mechanism = "Sharp Edge"

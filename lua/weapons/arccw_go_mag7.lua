@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "MAG-7"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "A futuristic pump-shotgun with an unorthodox design, the MAG-7 combines the close-quarters stopping power of 12 gague with an SMG-sized profile.  The mag-in-grip design forces the weapon to use proprietary 12G x 60mm minishells.  Famoulsy appeared in the 1996 film 'Romeo + Juliett' starring Leonardo DiCaprio."
+SWEP.Trivia_Desc = "An unorthodox design for a pump-shotgun, the MAG-7 combines the stopping power of 12 gague with an SMG-sized profile.  Famously appeared in the 1996 film 'Romeo + Juliett' starring Leonardo DiCaprio."
 SWEP.Trivia_Manufacturer = "Techno Arms"
 SWEP.Trivia_Calibre = "12G x 60mm Minishells"
 SWEP.Trivia_Mechanism = "Pump-Action"

@@ -5,12 +5,12 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "P90"
 SWEP.Trivia_Class = "PDW"
-SWEP.Trivia_Desc = "Renowned for its sci-fi looks, the P90 was developed in response to NATO's call for a 'personal defense weapon' that could be issued to vehicle crews in 1989.  The 5.7 x 28mm cartridge, developed alongside the weapon itself, boasts unparalleled armor penetration capabilities."
+SWEP.Trivia_Desc = "Renowned for its sci-fi looks, the P90 was developed in response to NATO's call for a 'personal defense weapon' that could be issued to vehicle crews.  The 5.7x28mm cartridge, developed alongside the weapon itself, boasts fantastic armor penetration capabilities."
 SWEP.Trivia_Manufacturer = "Fabrique National Herstale"
 SWEP.Trivia_Calibre = "5.7x28mm"
 SWEP.Trivia_Mechanism = "Closed-Bolt Blowback"
 SWEP.Trivia_Country = "Belgium"
-SWEP.Trivia_Year = 2001
+SWEP.Trivia_Year = 1990
 
 SWEP.Slot = 2
 
