@@ -285,6 +285,23 @@ SWEP.AttachmentElements = {
 	},
 }
 
+function SWEP:Hook_NameChange(name)
+    local eles = self:GetActiveElements()
+
+    local prefix = "G3"
+    local model = ""
+    local stock = "A3"
+
+    for i, k in pairs(eles or {}) do
+        if k == "go_g3_barrel_short" then
+            model = "K"
+		elseif k == "go_g3_stock_collapsible" then
+			stock = "A4"
+        end
+    end
+        return prefix .. model .. stock
+    end
+
 SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = true
 

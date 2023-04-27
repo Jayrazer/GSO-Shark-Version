@@ -146,7 +146,7 @@ SWEP.AttachmentElements = {
         }
     },
     ["go_mag7_barrel_long"] = {
-		NamChange = "Longsword",
+		NameChange = "Longsword",
         VMBodygroups = {{ind = 1, bg = 2}},
         AttPosMods = {
             [5] = {vpos = Vector(0, -4.15, 23.5),}
