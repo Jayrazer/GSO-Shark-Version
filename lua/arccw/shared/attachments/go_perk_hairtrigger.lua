@@ -8,8 +8,6 @@ att.Desc_Cons = {
 }
 att.Slot = "go_internals"
 
-att.Ignore = true
-
 att.AutoStats = true
 att.Mult_TriggerDelayTime = 0.6
 
