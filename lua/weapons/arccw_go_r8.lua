@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "S&W 327 R8"
 SWEP.Trivia_Class = "Revolver"
-SWEP.Trivia_Desc = "A special production model of the S&W Model 327, the R8 features an 8-round cylinder and a heavy barrel with an accessory rail.  Beware the heavy double-action trigger pull!"
+SWEP.Trivia_Desc = "A special production model of the S&W Model 327, the R8 features an 8-round cylinder and a heavy barrel with an accessory rail.  The double action trigger pull induces a slight firing delay."
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
 SWEP.Trivia_Calibre = ".357 Magnum"
 SWEP.Trivia_Mechanism = "Double-Action"
@@ -321,6 +321,7 @@ SWEP.Animations = {
 	["trigger"] = {
         Source = "prepare",
         MinProgress = 0.15,
+		Time = 0.15
     },
 	["untrigger"] = {
         Source = "idle",
