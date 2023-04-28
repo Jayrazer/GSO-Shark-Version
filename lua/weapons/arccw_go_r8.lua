@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "S&W 327 R8"
 SWEP.Trivia_Class = "Revolver"
-SWEP.Trivia_Desc = "A special production model of the S&W Model 327, the R8 features an 8-round cylinder and a heavy barrel with an accessory rail."
+SWEP.Trivia_Desc = "A special production model of the S&W Model 327, the R8 features an 8-round cylinder and a heavy barrel with an accessory rail.  Beware the heavy double-action trigger pull!"
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
 SWEP.Trivia_Calibre = ".357 Magnum"
 SWEP.Trivia_Mechanism = "Double-Action"
@@ -16,7 +16,7 @@ SWEP.Slot = 1
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_pist_r8.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_pist_r8_extras.mdl"
 SWEP.WorldModel = "models/weapons/arccw_go/v_pist_r8.mdl"
 SWEP.ViewModelFOV = 56
 
@@ -39,13 +39,22 @@ SWEP.RecoilSide = 1.75
 SWEP.RecoilRise = 0.1
 SWEP.RecoilPunch = 0.75
 
-SWEP.Delay = 60 / 300 -- 60 / RPM.
+SWEP.Delay = 60 / 180 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
+SWEP.TriggerDelay = true
 SWEP.Firemodes = {
     {
-        Mode = 1,
-        PrintName = "DACT"
+       Mode = 1,
+        PrintName = "fcg.dact",
+        --Override_TriggerDelay = true,
     },
+	{
+        Mode = 1,
+        PrintName = "Hammer Fan",
+        Override_TriggerDelay = false,
+        Add_SightsDispersion = 50,
+        Mult_HipDispersion = 4,
+	},
     {
         Mode = 0
     }
@@ -117,15 +126,15 @@ SWEP.BulletBones = false
 SWEP.RevolverReload = true
 
 SWEP.CaseBones = {
-    [6] = "v_weapon.cylbullet1",
-    [7] = "v_weapon.cylbullet2",
-    [8] = "v_weapon.cylbullet3",
-    [1] = "v_weapon.cylbullet4",
-    [2] = "v_weapon.cylbullet5",
-    [3] = "v_weapon.cylbullet6",
-    [4] = "v_weapon.cylbullet7",
-    [5] = "v_weapon.cylbullet8",
-}
+        [6] = {"v_weapon.cylbullet1", "v_weapon.lodbullet1"},
+        [7] = {"v_weapon.cylbullet2", "v_weapon.lodbullet2"},
+        [8] = {"v_weapon.cylbullet3", "v_weapon.lodbullet3"},
+        [1] = {"v_weapon.cylbullet4", "v_weapon.lodbullet4"},
+        [2] = {"v_weapon.cylbullet5", "v_weapon.lodbullet5"},
+        [3] = {"v_weapon.cylbullet6", "v_weapon.lodbullet6"},
+        [4] = {"v_weapon.cylbullet7", "v_weapon.lodbullet7"},
+        [5] = {"v_weapon.cylbullet8", "v_weapon.lodbullet8"},
+	}
 
 SWEP.AttachmentElements = {
     ["go_r8_barrel_short"] = {
@@ -179,7 +188,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = {"tac", "foregrip"},
+        Slot = "tac",
         Bone = "v_weapon.deagle_parent",
         Offset = {
             vpos = Vector(0, -2.3, 9),
@@ -220,7 +229,7 @@ SWEP.Attachments = {
     },
 	{
         PrintName = "Internals",
-        Slot = "go_internals"
+        Slot = "go_internals_pistol"
     },
     {
         PrintName = "Perk",
@@ -254,11 +263,9 @@ SWEP.Animations = {
         LHIKOut = 0.5,
     },
     ["fire"] = {
-        Source = {"alt1", "alt2", "alt3"},
+        Source = "fire",
         Time = 0.5,
-        LHIK = true,
-        LHIKIn = 0.1,
-        LHIKOut = 0.1,
+        LHIK = false,
     },
     ["fire_iron"] = {
         Source = "fire",
@@ -304,6 +311,20 @@ SWEP.Animations = {
             },
         }
     },
+	["fire_alt"] = {
+        Source = {"alt1", "alt2", "alt3"},
+        Time = 0.7,
+        LHIK = true,
+        LHIKIn = 0.1,
+        LHIKOut = 0.1,
+    },
+	["trigger"] = {
+        Source = "prepare",
+        MinProgress = 0.25,
+    },
+	["untrigger"] = {
+        Source = "idle",
+    },
 }
 
 sound.Add({
@@ -347,3 +368,11 @@ sound.Add({
     volume = 1.0,
     sound = "arccw_go/revolver/revolver_prepare.wav"
 })
+
+SWEP.Hook_TranslateAnimation = function(wep, anim)
+    if (anim == "fire" or anim == "fire_iron")
+            and wep:GetCurrentFiremode().Override_TriggerDelay == false then
+        return "fire_alt"
+    end
+end
+	
