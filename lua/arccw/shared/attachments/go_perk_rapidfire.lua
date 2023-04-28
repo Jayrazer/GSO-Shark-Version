@@ -12,5 +12,5 @@ att.Slot = "go_internals"
 att.Mult_RPM = 1.05
 
 att.Hook_Compatible = function(wep)
-    if wep.ManualAction then return false end
+    if wep:GetIsShotgun() or wep.ManualAction or wep.TriggerDelay or wep:GetBuff_Override("Override_TriggerDelay") then return false end
 end
