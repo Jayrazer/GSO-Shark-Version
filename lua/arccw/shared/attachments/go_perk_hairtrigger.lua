@@ -6,7 +6,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
 }
-att.Slot = "go_internals_pistol"
+att.Slot = "go_internals"
 
 att.Ignore = true
 

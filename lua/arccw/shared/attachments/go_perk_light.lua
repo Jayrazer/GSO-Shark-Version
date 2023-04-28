@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"go_internals", "go_internals_pistol"}
+att.Slot = "go_internals"
 
 
 att.Mult_SpeedMult = 1.1
