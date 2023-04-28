@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = false
-att.Slot = "go_perk"
+att.Slot = "go_perk_pistol"
 att.JohnWick = true
 
 att.Ignore = true
