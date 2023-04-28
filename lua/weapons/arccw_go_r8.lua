@@ -320,7 +320,7 @@ SWEP.Animations = {
     },
 	["trigger"] = {
         Source = "prepare",
-        MinProgress = 0.25,
+        MinProgress = 0.15,
     },
 	["untrigger"] = {
         Source = "idle",
