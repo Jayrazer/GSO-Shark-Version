@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_rif_fnfal.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_rif_fnfal.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_rif_fnfal_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_rif_fnfal_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "00000000000"
@@ -241,6 +241,30 @@ SWEP.AttachmentElements = {
             },
         }
     },
+	["go_fal_barrel_falo"] = {
+		NameChange = "FALO",
+        VMBodygroups = {
+            {ind = 1, bg = 3},
+			{ind = 9, bg = 1},
+        },
+        AttPosMods = {
+            [5] = {
+                vpos = Vector(0, -3.7, 28.5),
+            }
+        },
+        VMElements = {
+            {
+                Model = "models/editor/axis_helper.mdl",
+                Bone = "v_weapon.galilar_Parent",
+                Offset = {
+                    pos = Vector(0, -3.7, 25),
+                    ang = Angle(90, 0, -90),
+                },
+                Scale = Vector(0, 0, 0),
+                IsMuzzleDevice = true
+            }
+        },
+	},
 }
 
 SWEP.Hook_ModifyBodygroups = function(wep, data)
@@ -262,6 +286,8 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
             barrel = 3
         elseif k == "go_fal_barrel_sd" then
             barrel = 4
+		elseif k == "go_fal_barrel_falo" then
+			barrel = 5
         elseif k == "ubrms" then
             ubr = true
         elseif k == "tacms" then
@@ -305,6 +331,14 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
         if ubr then
             vm:SetBodygroup(6, 1)
         end
+	elseif barrel == 5 then
+		if tac then
+            vm:SetBodygroup(7, 4)
+        end
+        if ubr then
+            vm:SetBodygroup(6, 1)
+        end
+		fh = 4
     else
         if tac then
             vm:SetBodygroup(7, 1)
