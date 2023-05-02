@@ -17,5 +17,5 @@ Plans:
 
 - Bipod for AUG, AK (done) and Galil.
 - Reworked G3 barrels.  SG1 barrel becomes default, new "long" barrel is a fake PSG barrel.
-- Rework FAL barrels.  Make long barrel
+- Rework FAL barrels.  Make long barrel default, add FALO barrel with a bipod.
 - Move all attachments to bulk files. (WIP)
