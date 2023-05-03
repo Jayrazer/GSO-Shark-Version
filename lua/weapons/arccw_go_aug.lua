@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_rif_aug.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_rif_aug.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_rif_aug_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_rif_aug_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "000000000000"
