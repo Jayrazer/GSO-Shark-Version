@@ -244,18 +244,6 @@ SWEP.Attachments = {
         InstalledEles = {"sidemount"},
     },
     {
-        PrintName = "Underbarrel",
-        Slot = "foregrip",
-        Bone = "v_weapon.bizon_clip",
-        Offset = {
-            vpos = Vector(0, 1, 3),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(22, 1, -7),
-            wang = Angle(-9.79, 0, 180)
-        },
-        InstalledEles = {"ubrms"},
-    },
-    {
         PrintName = "Tactical",
         Slot = "tac",
         Bone = "v_weapon.bizon_parent",
