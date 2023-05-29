@@ -16,8 +16,8 @@ SWEP.Slot = 2
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw_go/v_rif_g3.mdl"
-SWEP.WorldModel = "models/weapons/arccw_go/v_rif_g3.mdl"
+SWEP.ViewModel = "models/weapons/arccw_go/v_rif_g3_extras.mdl"
+SWEP.WorldModel = "models/weapons/arccw_go/v_rif_g3_extras.mdl"
 SWEP.ViewModelFOV = 56
 
 SWEP.DefaultBodygroups = "00000000000"
@@ -457,6 +457,7 @@ SWEP.Animations = {
     },
     ["reload"] = {
         Source = "reload",
+		Time = 3.1,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         Checkpoints = {16, 30},
         FrameRate = 30,
@@ -467,6 +468,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
+		Time = 3.9,
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         Checkpoints = {16, 30, 55},
         FrameRate = 30,
